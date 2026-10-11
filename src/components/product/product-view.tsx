@@ -43,7 +43,11 @@ export function ProductView({ slug }: { slug: string }) {
         ]}
       />
       <div className="mt-6 grid gap-8 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] lg:gap-14">
-        <ProductGallery images={productGallery(product)} alt={productAlt(product)} />
+        <ProductGallery
+          images={productGallery(product)}
+          alt={productAlt(product)}
+          morphName={`product-${product.id}`}
+        />
         <ProductInfo key={product.id} product={product} />
       </div>
       <ProductReviews product={product} />

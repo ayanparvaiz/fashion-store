@@ -2,7 +2,7 @@
 
 import { Eye } from "lucide-react";
 import Link from "next/link";
-import { useRef } from "react";
+import { ViewTransition, useRef } from "react";
 import { SmartImage as Image } from "@/components/ui/smart-image";
 import { isLowStock, productAlt, productHref, productImage } from "@/lib/catalog";
 import { cn } from "@/lib/cn";
@@ -32,6 +32,8 @@ export function ProductCard({
   const href = productHref(product);
   const hoverImage = product.image.id ? productImage(product, "detail") : null;
   const openQuickView = useUI((s) => s.openQuickView);
+  const morph = useUI((s) => s.morphId === product.id);
+  const setMorphId = useUI((s) => s.setMorphId);
   const frame = useRef<HTMLDivElement>(null);
 
   // Subtle 3D tilt with a moving glare on precise pointers.
@@ -66,18 +68,27 @@ export function ProductCard({
         onPointerLeave={resetTilt}
         className="relative aspect-[3/4] overflow-hidden bg-soft transition-transform duration-300 ease-out [transform:rotateX(var(--rx,0deg))_rotateY(var(--ry,0deg))] [transform-style:preserve-3d]"
       >
-        <Link href={href} aria-label={product.name} className="absolute inset-0" data-cursor="view">
-          <Image
-            src={productImage(product)}
-            alt={productAlt(product)}
-            fill
-            sizes={sizes}
-            priority={priority}
-            className={cn(
-              "object-cover transition-all duration-700 ease-out",
-              hoverImage && "group-hover:opacity-0",
-            )}
-          />
+        <Link
+          href={href}
+          aria-label={product.name}
+          className="absolute inset-0"
+          data-cursor="view"
+          onClick={() => setMorphId(product.id)}
+        >
+          {/* Only the clicked card carries the shared name, so it morphs into the product page. */}
+          <ViewTransition name={morph ? `product-${product.id}` : undefined} share="morph" default="none">
+            <Image
+              src={productImage(product)}
+              alt={productAlt(product)}
+              fill
+              sizes={sizes}
+              priority={priority}
+              className={cn(
+                "object-cover transition-all duration-700 ease-out",
+                hoverImage && "group-hover:opacity-0",
+              )}
+            />
+          </ViewTransition>
           {hoverImage && (
             <Image
               src={hoverImage}

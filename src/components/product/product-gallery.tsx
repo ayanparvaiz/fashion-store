@@ -2,11 +2,20 @@
 
 import { ZoomIn } from "lucide-react";
 import { SmartImage as Image } from "@/components/ui/smart-image";
-import { useRef, useState } from "react";
+import { ViewTransition, useRef, useState } from "react";
 import { cn } from "@/lib/cn";
 import { Sheet } from "@/components/ui/sheet";
 
-export function ProductGallery({ images, alt }: { images: string[]; alt: string }) {
+export function ProductGallery({
+  images,
+  alt,
+  morphName,
+}: {
+  images: string[];
+  alt: string;
+  /** Shared-element name so the clicked product card morphs into the first image. */
+  morphName?: string;
+}) {
   const [active, setActive] = useState(0);
   const [zoomOpen, setZoomOpen] = useState(false);
   const track = useRef<HTMLDivElement>(null);
@@ -61,14 +70,16 @@ export function ProductGallery({ images, alt }: { images: string[]; alt: string 
               className="group relative aspect-[3/4] w-full shrink-0 snap-center cursor-zoom-in overflow-hidden bg-soft"
               aria-label={`Zoom image ${i + 1}`}
             >
-              <Image
-                src={src}
-                alt={i === 0 ? alt : `${alt} — detail ${i}`}
-                fill
-                priority={i === 0}
-                sizes="(min-width: 1024px) 50vw, 100vw"
-                className="object-cover"
-              />
+              <ViewTransition name={i === 0 ? morphName : undefined} share="morph" default="none">
+                <Image
+                  src={src}
+                  alt={i === 0 ? alt : `${alt} — detail ${i}`}
+                  fill
+                  priority={i === 0}
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  className="object-cover"
+                />
+              </ViewTransition>
               <span className="absolute right-3 bottom-3 grid size-10 place-items-center rounded-full bg-paper/90 opacity-0 shadow transition group-hover:opacity-100">
                 <ZoomIn className="size-4" />
               </span>

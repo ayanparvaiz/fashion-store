@@ -16,6 +16,7 @@ import { productImage, totalStock } from "@/lib/catalog";
 import { cn } from "@/lib/cn";
 import { formatDateTime, formatPrice, formatWeekday } from "@/lib/format";
 import { useAllProducts, useProductMap } from "@/lib/store/catalog";
+import { useStockAlerts } from "@/lib/store/alerts";
 import { useOrders } from "@/lib/store/orders";
 import { BarList } from "./charts/bar-list";
 import { RevenueChart } from "./charts/revenue-chart";
@@ -57,6 +58,7 @@ export function Dashboard() {
   const orders = useOrders((s) => s.orders);
   const products = useAllProducts();
   const productMap = useProductMap();
+  const alerts = useStockAlerts((s) => s.alerts);
   const [days, setDays] = useState<(typeof RANGES)[number]>(14);
   const [tableView, setTableView] = useState(false);
   // One shared "now" so every widget on the page agrees.
@@ -250,6 +252,29 @@ export function Dashboard() {
           </table>
         </div>
       </Card>
+
+      {alerts.length > 0 && (
+        <Card>
+          <CardHeader title={`Back-in-stock requests (${alerts.length})`} />
+          <ul className="divide-y divide-line">
+            {alerts.slice(0, 8).map((a) => {
+              const p = productMap.get(a.productId);
+              return (
+                <li key={`${a.productId}-${a.size}-${a.email}`} className="flex items-center gap-3 px-5 py-3 text-sm">
+                  <span className="min-w-0 flex-1 truncate">
+                    <Link href={`/admin/products/edit/?id=${a.productId}`} className="font-medium hover:underline">
+                      {p?.name ?? a.productId}
+                    </Link>{" "}
+                    <span className="text-muted">· size {a.size}</span>
+                  </span>
+                  <span className="text-muted">{a.email}</span>
+                  <span className="w-28 text-right text-xs text-muted">{formatDateTime(a.createdAt)}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </Card>
+      )}
     </div>
   );
 }

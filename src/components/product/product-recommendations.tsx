@@ -36,7 +36,7 @@ export function ProductRecommendations({ product }: { product: Product }) {
   return (
     <>
       <section className="border-t border-line py-14 lg:py-20">
-        <SectionHeading eyebrow="Complete the look" title="You may also like" />
+        <SectionHeading eyebrow="More to love" title="You may also like" />
         <ProductCarousel products={related} />
       </section>
       {mounted && recent.length > 0 && (

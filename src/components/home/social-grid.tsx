@@ -12,7 +12,10 @@ export function SocialGrid() {
     <section className="py-14 lg:py-20">
       <div className="container-page mb-8 text-center">
         <p className="eyebrow text-accent">As seen on you</p>
-        <h2 className="heading-display mt-2 text-3xl sm:text-4xl lg:text-5xl">#FashionStoreStyle</h2>
+        <h2 className="heading-display mt-2 text-2xl sm:text-4xl lg:text-5xl">
+          #FashionStore<wbr />
+          Style
+        </h2>
         <p className="mt-3 text-sm text-muted">Tag us @fashionstore.sg for a chance to be featured.</p>
       </div>
       <ul className="grid grid-cols-3 gap-1 lg:grid-cols-6">

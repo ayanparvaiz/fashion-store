@@ -26,7 +26,7 @@ export function DiscountsPage() {
   return (
     <div>
       <PageHeader title="Discounts" description="Codes shoppers can apply in the bag or at checkout." />
-      <div className="grid gap-6 xl:grid-cols-[1fr_360px]">
+      <div className="grid gap-6 xl:grid-cols-[1fr_360px] [&>*]:min-w-0">
         <Card>
           <div className="overflow-x-auto">
             <table className="w-full min-w-[640px]">

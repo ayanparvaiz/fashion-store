@@ -167,7 +167,7 @@ function ProductEditor({ initial, isNew }: { initial: Product; isNew: boolean })
         </div>
       )}
 
-      <div className="grid gap-6 xl:grid-cols-[1fr_340px]">
+      <div className="grid gap-6 xl:grid-cols-[1fr_340px] [&>*]:min-w-0">
         <div className="space-y-6">
           <Card>
             <CardHeader title="Details" />

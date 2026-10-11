@@ -89,7 +89,7 @@ export function Preloader() {
         <span>Singapore</span>
         <span>SS26 Collection</span>
       </div>
-      <p className="flex justify-center overflow-hidden font-display text-[11vw] leading-none sm:text-[9vw]">
+      <p className="flex justify-center overflow-hidden font-display text-[10vw] leading-none sm:text-[7vw]">
         {WORD.split("").map((ch, i) => (
           <span key={i} data-char className={ch === "." ? "inline-block text-accent" : "inline-block"}>
             {ch}
@@ -99,7 +99,7 @@ export function Preloader() {
       <div>
         <div className="flex items-end justify-between">
           <span className="text-[11px] font-semibold tracking-[0.2em] text-paper/60 uppercase">Loading the drop</span>
-          <span data-counter className="font-display text-5xl tabular-nums sm:text-7xl">
+          <span data-counter className="font-display text-4xl tabular-nums sm:text-5xl">
             000
           </span>
         </div>

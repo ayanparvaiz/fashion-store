@@ -1,0 +1,8 @@
+import type { Metadata } from "next";
+import { DiscountsPage } from "@/components/admin/discounts-page";
+
+export const metadata: Metadata = { title: "Discounts" };
+
+export default function Page() {
+  return <DiscountsPage />;
+}

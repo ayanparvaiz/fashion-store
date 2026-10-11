@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
     // Product photos are served by the Unsplash CDN, which resizes on the fly.
     loader: "custom",
     loaderFile: "./src/lib/image-loader.ts",
+    // A tighter width ladder keeps srcset attributes (and HTML) small.
+    deviceSizes: [640, 828, 1080, 1440, 1920, 2560],
+    imageSizes: [96, 192, 256, 384],
   },
   turbopack: {
     rules: {

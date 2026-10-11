@@ -32,6 +32,15 @@ export const DEFAULT_DISCOUNTS: DiscountCode[] = [
     uses: 41,
   },
   {
+    code: "FLASH10",
+    type: "percent",
+    value: 10,
+    minSubtotal: 0,
+    active: true,
+    description: "Flash sale: extra 10% off, today only",
+    uses: 23,
+  },
+  {
     code: "FREESHIP",
     type: "shipping",
     value: 0,
@@ -67,6 +76,18 @@ export const useDiscounts = create<DiscountState>()(
         })),
       reset: () => set({ codes: DEFAULT_DISCOUNTS }),
     }),
-    { name: storageKey("discounts"), storage: localJSON, version: 1 },
+    {
+      name: storageKey("discounts"),
+      storage: localJSON,
+      version: 2,
+      // v2 adds the FLASH10 code for browsers that saved v1 codes.
+      migrate: (persisted, version) => {
+        const state = persisted as Pick<DiscountState, "codes">;
+        if (version < 2 && !state.codes.some((c) => c.code === "FLASH10")) {
+          state.codes = [...state.codes, DEFAULT_DISCOUNTS.find((c) => c.code === "FLASH10")!];
+        }
+        return state as DiscountState;
+      },
+    },
   ),
 );

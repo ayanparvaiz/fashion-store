@@ -1,5 +1,6 @@
 import { CartDrawer } from "@/components/cart/cart-drawer";
 import { Cursor } from "@/components/motion/cursor";
+import { PageTransition } from "@/components/motion/page-transition";
 import { SmoothScroll } from "@/components/motion/smooth-scroll";
 import { QuickView } from "@/components/product/quick-view";
 import { AnnouncementBar } from "./announcement-bar";
@@ -21,7 +22,7 @@ export function StoreChrome({ children }: { children: React.ReactNode }) {
       <AnnouncementBar />
       <Header />
       <main id="main" className="flex-1">
-        {children}
+        <PageTransition>{children}</PageTransition>
       </main>
       <Footer />
       <SmoothScroll />

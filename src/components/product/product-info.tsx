@@ -16,7 +16,11 @@ import { Button } from "@/components/ui/button";
 import { Price } from "@/components/ui/price";
 import { Stars } from "@/components/ui/stars";
 import { ProductBadges } from "./product-badges";
+import { SizeFinder } from "./size-finder";
 import { SizeGuideDialog } from "./size-guide-dialog";
+import { LiveViewers } from "@/components/marketing/social-proof";
+import { useStockAlerts } from "@/lib/store/alerts";
+import { isEmail } from "@/lib/validation";
 import { WishlistButton } from "./wishlist-button";
 
 export function ProductInfo({ product }: { product: Product }) {
@@ -52,6 +56,7 @@ export function ProductInfo({ product }: { product: Product }) {
       setError(true);
       return;
     }
+    if (available === 0) return;
     add({ productId: product.id, size, quantity });
     toast(`${product.name} (${size}) added to bag`, "success");
     setCartOpen(true);
@@ -67,6 +72,9 @@ export function ProductInfo({ product }: { product: Product }) {
       </a>
       <Price price={product.price} compareAt={product.compareAtPrice} size="lg" className="mt-4" />
       <p className="mt-1 text-xs text-muted">Price includes GST. Pay with cash on delivery.</p>
+      <div className="mt-4">
+        <LiveViewers product={product} />
+      </div>
 
       <div className="mt-7">
         <p className="text-xs font-bold uppercase tracking-[0.14em]">
@@ -84,7 +92,17 @@ export function ProductInfo({ product }: { product: Product }) {
           <p className="text-xs font-bold uppercase tracking-[0.14em]">
             Size{size && <span className="font-normal normal-case tracking-normal">: {size}</span>}
           </p>
-          <SizeGuideDialog gender={product.gender} category={product.category} />
+          <div className="flex items-center gap-4">
+            <SizeFinder
+              product={product}
+              onSelect={(s) => {
+                setSize(s);
+                setError(false);
+                setQuantity(1);
+              }}
+            />
+            <SizeGuideDialog gender={product.gender} category={product.category} />
+          </div>
         </div>
         <div className="mt-3 flex flex-wrap gap-2" role="radiogroup" aria-label="Choose a size">
           {product.sizes.map((s) => {
@@ -96,7 +114,7 @@ export function ProductInfo({ product }: { product: Product }) {
                 type="button"
                 role="radio"
                 aria-checked={size === s}
-                disabled={out}
+                aria-label={out ? `${s} — sold out, get notified` : s}
                 onClick={() => {
                   setSize(s);
                   setError(false);
@@ -105,7 +123,7 @@ export function ProductInfo({ product }: { product: Product }) {
                 className={cn(
                   "relative h-11 min-w-13 border px-3 text-sm font-medium transition-colors",
                   size === s ? "border-ink bg-ink text-paper" : "border-line hover:border-ink",
-                  out && "cursor-not-allowed text-subtle line-through hover:border-line",
+                  out && size !== s && "text-subtle line-through",
                 )}
               >
                 {s}
@@ -120,6 +138,7 @@ export function ProductInfo({ product }: { product: Product }) {
         {size && available > 0 && available <= 3 && (
           <p className="mt-2 text-xs font-semibold text-accent">Hurry — only {available} left in {size}!</p>
         )}
+        {size && available === 0 && <NotifyMe productId={product.id} size={size} />}
       </div>
 
       <div ref={addButton} className="mt-7 flex gap-3">
@@ -146,8 +165,13 @@ export function ProductInfo({ product }: { product: Product }) {
             <Plus className="size-4" />
           </button>
         </div>
-        <Button size="lg" className="flex-1 px-4 whitespace-nowrap" onClick={addToBag} disabled={soldOut}>
-          {soldOut ? "Sold out" : "Add to bag"}
+        <Button
+          size="lg"
+          className="flex-1 px-4 whitespace-nowrap"
+          onClick={addToBag}
+          disabled={soldOut || (size !== null && available === 0)}
+        >
+          {soldOut ? "Sold out" : size && available === 0 ? `${size} sold out` : "Add to bag"}
         </Button>
         <WishlistButton
           productId={product.id}
@@ -239,5 +263,47 @@ export function ProductInfo({ product }: { product: Product }) {
         </Button>
       </div>
     </div>
+  );
+}
+
+function NotifyMe({ productId, size }: { productId: string; size: string }) {
+  const add = useStockAlerts((s) => s.add);
+  const toast = useUI((s) => s.toast);
+  const [email, setEmail] = useState("");
+  const [sent, setSent] = useState(false);
+
+  if (sent) {
+    return (
+      <p className="mt-3 bg-soft p-3 text-xs">
+        Done — we&apos;ll email <strong>{email}</strong> as soon as size {size} is back.
+      </p>
+    );
+  }
+  return (
+    <form
+      className="mt-3 bg-soft p-3"
+      onSubmit={(e) => {
+        e.preventDefault();
+        if (!isEmail(email)) return toast("Enter a valid email address.", "error");
+        add({ productId, size, email });
+        setSent(true);
+        toast(`We'll let you know when ${size} is back`, "success");
+      }}
+    >
+      <p className="text-xs font-semibold">Size {size} is sold out. Get notified when it&apos;s back:</p>
+      <div className="mt-2 flex gap-2">
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Your email"
+          aria-label="Email for restock alert"
+          className="h-10 min-w-0 flex-1 border border-line bg-paper px-3 text-sm focus:border-ink focus:outline-none"
+        />
+        <Button type="submit" size="sm" className="h-10">
+          Notify me
+        </Button>
+      </div>
+    </form>
   );
 }

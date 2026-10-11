@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { SmartImage as Image } from "@/components/ui/smart-image";
 import Link from "next/link";
 import { productAlt, productHref, productImage, seedProducts } from "@/lib/catalog";
 import { InstagramIcon } from "@/components/ui/social-icons";

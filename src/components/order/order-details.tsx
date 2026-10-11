@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { SmartImage as Image } from "@/components/ui/smart-image";
 import Link from "next/link";
 import { OrderTotals } from "@/components/cart/order-totals";
 import { formatPrice } from "@/lib/format";

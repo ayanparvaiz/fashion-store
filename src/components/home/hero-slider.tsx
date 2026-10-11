@@ -1,7 +1,7 @@
 "use client";
 
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import Image from "next/image";
+import { SmartImage as Image } from "@/components/ui/smart-image";
 import { useEffect, useState } from "react";
 import { banners, photoUrl } from "@/lib/catalog";
 import { cn } from "@/lib/cn";

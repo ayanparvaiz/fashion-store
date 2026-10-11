@@ -1,7 +1,7 @@
 "use client";
 
 import { ZoomIn } from "lucide-react";
-import Image from "next/image";
+import { SmartImage as Image } from "@/components/ui/smart-image";
 import { useRef, useState } from "react";
 import { cn } from "@/lib/cn";
 import { Sheet } from "@/components/ui/sheet";

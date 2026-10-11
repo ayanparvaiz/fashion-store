@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import { SmartImage as Image } from "@/components/ui/smart-image";
 import { banners, photoUrl } from "@/lib/catalog";
 import { collectionHref } from "@/lib/collections";
 import { LinkButton } from "@/components/ui/button";

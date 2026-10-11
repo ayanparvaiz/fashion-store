@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowRight, Search, X } from "lucide-react";
-import Image from "next/image";
+import { SmartImage as Image } from "@/components/ui/smart-image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useDeferredValue, useEffect, useRef, useState } from "react";

@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { SmartImage as Image } from "@/components/ui/smart-image";
 import Link from "next/link";
 import { isLowStock, productAlt, productHref, productImage } from "@/lib/catalog";
 import { cn } from "@/lib/cn";

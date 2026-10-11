@@ -102,7 +102,7 @@ export function Dashboard() {
         <StatTile label="Items sold" value={String(current.units)} current={current.units} previous={previous.units} />
       </div>
 
-      <div className="grid gap-6 xl:grid-cols-[1fr_380px]">
+      <div className="grid gap-6 xl:grid-cols-[1fr_380px] [&>*]:min-w-0">
         <Card>
           <CardHeader
             title="Revenue per day"
@@ -153,7 +153,7 @@ export function Dashboard() {
         </Card>
       </div>
 
-      <div className="grid gap-6 xl:grid-cols-3">
+      <div className="grid gap-6 xl:grid-cols-3 [&>*]:min-w-0">
         <Card>
           <CardHeader
             title={`Needs confirmation (${pending.length})`}

@@ -89,7 +89,7 @@ export function ProductGallery({ images, alt }: { images: string[]; alt: string 
         </div>
       </div>
 
-      <Sheet open={zoomOpen} onClose={() => setZoomOpen(false)} side="center" title={alt} className="max-w-3xl">
+      <Sheet open={zoomOpen} onClose={() => setZoomOpen(false)} side="center" title={alt} width="max-w-3xl">
         <div className="relative aspect-[3/4] w-full bg-soft">
           <Image src={images[active]} alt={alt} fill sizes="(min-width: 768px) 768px, 100vw" quality={90} className="object-cover" />
         </div>

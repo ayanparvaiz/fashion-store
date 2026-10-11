@@ -54,7 +54,7 @@ export function OrderDrawer({ order, onClose }: { order: Order | null; onClose: 
   const toast = useUI((s) => s.toast);
 
   return (
-    <Sheet open={order !== null} onClose={onClose} title={order ? `Order #${order.number}` : ""} className="max-w-xl">
+    <Sheet open={order !== null} onClose={onClose} title={order ? `Order #${order.number}` : ""} width="max-w-xl">
       {order && (
         <div className="space-y-6 p-5">
           <div className="flex flex-wrap items-center justify-between gap-3">

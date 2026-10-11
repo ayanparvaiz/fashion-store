@@ -3,6 +3,7 @@
 import { X } from "lucide-react";
 import { useEffect, useRef, type ReactNode } from "react";
 import { cn } from "@/lib/cn";
+import { getLenis } from "@/lib/motion";
 
 interface SheetProps {
   open: boolean;
@@ -13,6 +14,8 @@ interface SheetProps {
   children: ReactNode;
   footer?: ReactNode;
   labelledBy?: string;
+  /** Max-width utility; defaults depend on the side. */
+  width?: string;
 }
 
 /**
@@ -27,6 +30,7 @@ export function Sheet({
   className,
   children,
   footer,
+  width,
 }: SheetProps) {
   const ref = useRef<HTMLDialogElement>(null);
 
@@ -36,19 +40,21 @@ export function Sheet({
     if (open && !dialog.open) {
       dialog.showModal();
       document.documentElement.style.overflow = "hidden";
+      getLenis()?.stop();
     }
     if (!open && dialog.open) dialog.close();
     return () => {
       document.documentElement.style.overflow = "";
+      getLenis()?.start();
     };
   }, [open]);
 
   const position =
     side === "center"
-      ? "m-auto max-h-[90dvh] w-[calc(100%-2rem)] max-w-xl animate-pop"
+      ? cn("m-auto max-h-[90dvh] w-[calc(100%-2rem)] animate-pop", width ?? "max-w-xl")
       : side === "right"
-        ? "my-0 mr-0 ml-auto h-dvh max-h-dvh w-full max-w-md animate-slide-in-right"
-        : "my-0 mr-auto ml-0 h-dvh max-h-dvh w-full max-w-sm animate-slide-in-left";
+        ? cn("my-0 mr-0 ml-auto h-dvh max-h-dvh w-full animate-slide-in-right", width ?? "max-w-md")
+        : cn("my-0 mr-auto ml-0 h-dvh max-h-dvh w-full animate-slide-in-left", width ?? "max-w-sm");
 
   return (
     <dialog

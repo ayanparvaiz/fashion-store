@@ -243,6 +243,78 @@ const CATEGORY = {
     ],
     features: ["Button-through front", "Curved hem", "Breathable fabric"],
   },
+  skirts: {
+    label: "Skirts",
+    code: "SK",
+    focusY: 0.62,
+    material: "100% Polyester",
+    intros: [
+      "Swishy, flattering and made for golden-hour plans.",
+      "The skirt that works with a tee by day and heels by night.",
+      "Effortless movement and a waist-defining fit you'll love.",
+    ],
+    features: ["Concealed side zip", "Lined", "High-rise waist"],
+  },
+  shorts: {
+    label: "Shorts",
+    code: "ST",
+    focusY: 0.5,
+    material: "100% Cotton",
+    intros: [
+      "Hot-weather hero — breezy, comfy and easy to style.",
+      "Your go-to shorts for beach days, brunch and everything in between.",
+      "Relaxed fit, soft handfeel and made for Singapore sunshine.",
+    ],
+    features: ["Elasticated or button waist", "Side pockets", "Breathable fabric"],
+  },
+  knitwear: {
+    label: "Knitwear",
+    code: "KN",
+    focusY: 0.42,
+    material: "70% Acrylic, 30% Wool",
+    intros: [
+      "Soft, cosy knit made for freezing air-con and cool evenings.",
+      "A textured knit that layers beautifully over shirts and tees.",
+      "The sweater you'll live in — relaxed, warm and endlessly stylable.",
+    ],
+    features: ["Ribbed cuffs and hem", "Relaxed fit", "Soft-touch yarn"],
+  },
+  "denim-jackets": {
+    label: "Denim Jackets",
+    code: "DJ",
+    focusY: 0.42,
+    material: "100% Cotton denim",
+    intros: [
+      "The denim jacket that goes with literally everything.",
+      "Washed for a lived-in feel from day one — your new third piece.",
+      "A timeless trucker silhouette with modern proportions.",
+    ],
+    features: ["Button-through front", "Chest flap pockets", "Adjustable waist tabs"],
+  },
+  activewear: {
+    label: "Activewear",
+    code: "AC",
+    focusY: 0.5,
+    material: "78% Nylon, 22% Spandex",
+    intros: [
+      "Squat-proof, sweat-wicking and sculpted to move with you.",
+      "From reformer to rooftop runs — performance that looks good.",
+      "Second-skin feel with support exactly where you need it.",
+    ],
+    features: ["Four-way stretch", "Moisture-wicking", "High-rise waistband"],
+  },
+  polos: {
+    label: "Polos",
+    code: "PL",
+    focusY: 0.4,
+    material: "100% Cotton piqué",
+    intros: [
+      "Smart-casual sorted — a polo that's sharp enough for dinner.",
+      "Soft piqué cotton with a clean collar and modern fit.",
+      "The easiest upgrade from a tee, made for warm weather.",
+    ],
+    features: ["Ribbed collar", "Two-button placket", "Breathable cotton"],
+  },
   pants: {
     label: "Pants",
     code: "PT",
@@ -280,7 +352,11 @@ const CARE = {
 
 const SIZES = {
   women: { default: ["XS", "S", "M", "L", "XL"], jeans: ["24", "25", "26", "27", "28", "29", "30"] },
-  men: { default: ["S", "M", "L", "XL", "XXL"], pants: ["28", "30", "32", "34", "36"] },
+  men: {
+    default: ["S", "M", "L", "XL", "XXL"],
+    pants: ["28", "30", "32", "34", "36"],
+    jeans: ["28", "30", "32", "34", "36"],
+  },
 };
 
 // ---------------------------------------------------------------------------
@@ -379,10 +455,85 @@ for (const [gender, categories] of Object.entries(CATALOG)) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Catalogue expansion (≈400 more), curated by scripts/curate-expansion.py
+// ---------------------------------------------------------------------------
+const expansion = JSON.parse(
+  await readFile(path.join(import.meta.dirname, "catalog-expansion.json"), "utf8"),
+);
+const usedSlugs = new Set(products.map((p) => p.slug));
+const perCategory = {};
+
+for (const e of expansion) {
+  n += 1;
+  const meta = CATEGORY[e.category];
+  const key = `${e.gender}/${e.category}`;
+  const i = (perCategory[key] = (perCategory[key] ?? products.filter((p) => `${p.gender}/${p.category}` === key).length) + 1);
+  media[e.photoId] = {
+    src: e.photo.raw,
+    alt: e.photo.alt,
+    color: e.photo.color,
+    author: e.photo.author,
+    authorUrl: e.photo.authorUrl,
+    pageUrl: e.photo.pageUrl,
+  };
+
+  const sizeList = SIZES[e.gender][e.category] ?? SIZES[e.gender].default;
+  const lowStockProduct = rand() < 0.1;
+  const stock = Object.fromEntries(
+    sizeList.map((s) => [s, rand() < 0.08 ? 0 : lowStockProduct ? int(1, 3) : int(4, 40)]),
+  );
+  const ageDays = rand() < 0.22 ? int(1, 20) : int(21, 200);
+  const material = /Linen/.test(e.name)
+    ? "100% Linen"
+    : /Satin/.test(e.name)
+      ? "100% Polyester satin"
+      : /Wool|Merino|Lambswool/.test(e.name)
+        ? "50% Wool, 50% Polyester"
+        : /Leather-Look/.test(e.name)
+          ? "Polyurethane faux leather"
+          : meta.material;
+  let slug = slugify(`${e.name}-${e.color.name}`);
+  for (let k = 2; usedSlugs.has(slug); k++) slug = slugify(`${e.name}-${e.color.name}-${k}`);
+  usedSlugs.add(slug);
+
+  products.push({
+    id: `fs-${String(n).padStart(3, "0")}`,
+    sku: `FS-${e.gender === "women" ? "W" : "M"}${meta.code}-${String(i).padStart(3, "0")}`,
+    slug,
+    name: e.name,
+    gender: e.gender,
+    category: e.category,
+    price: e.price,
+    compareAtPrice: e.compareAtPrice,
+    color: e.color,
+    sizes: sizeList,
+    stock,
+    image: { id: e.photoId, focusY: e.focusY },
+    description: meta.intros[i % meta.intros.length],
+    features: meta.features,
+    material,
+    care: /Wool/.test(material) ? CARE.wool : CARE.default,
+    rating: round2(between(4.0, 4.95)),
+    reviewCount: int(3, 420),
+    sold: int(5, 900),
+    isNew: ageDays <= 20,
+    createdAt: new Date(CATALOG_DATE - ageDays * DAY).toISOString(),
+  });
+}
+
+// Editorial imagery for the lookbook.
+const picks = JSON.parse(await readFile(path.join(import.meta.dirname, "expansion-picks.json"), "utf8"));
+const lookbook = picks["x-lookbook"].map((id) => {
+  const p = photoRef(id);
+  media[id] = { src: p.raw, alt: p.alt, color: p.color, author: p.author, authorUrl: p.authorUrl, pageUrl: p.pageUrl };
+  return id;
+});
+
 // Best sellers: top sellers per category become flagged.
 const byCategory = Object.groupBy(products, (p) => `${p.gender}/${p.category}`);
 for (const list of Object.values(byCategory)) {
-  list.sort((a, b) => b.sold - a.sold).slice(0, 2).forEach((p) => (p.isBestseller = true));
+  list.sort((a, b) => b.sold - a.sold).slice(0, Math.max(2, Math.round(list.length / 8))).forEach((p) => (p.isBestseller = true));
 }
 for (const p of products) p.isBestseller ??= false;
 
@@ -410,6 +561,6 @@ await writeFile(
 );
 await writeFile(
   path.join(root, "src/data/media.json"),
-  JSON.stringify({ banners, photos: media }, null, 2) + "\n",
+  JSON.stringify({ banners, lookbook, photos: media }, null, 2) + "\n",
 );
 console.log(`Wrote ${products.length} products and ${Object.keys(media).length} photos`);

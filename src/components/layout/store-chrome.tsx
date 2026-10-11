@@ -1,4 +1,5 @@
 import { CartDrawer } from "@/components/cart/cart-drawer";
+import { SmoothScroll } from "@/components/motion/smooth-scroll";
 import { AnnouncementBar } from "./announcement-bar";
 import { Footer } from "./footer";
 import { Header } from "./header";
@@ -21,6 +22,7 @@ export function StoreChrome({ children }: { children: React.ReactNode }) {
         {children}
       </main>
       <Footer />
+      <SmoothScroll />
       <CartDrawer />
       <MobileMenu />
       <SearchOverlay />

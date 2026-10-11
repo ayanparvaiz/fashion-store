@@ -57,5 +57,5 @@ export const SIZE_TABLES = {
 
 export function sizeTableFor(gender: Gender, category: CategorySlug): SizeTable {
   if (gender === "women") return category === "jeans" ? SIZE_TABLES.womenJeans : SIZE_TABLES.womenTops;
-  return category === "pants" ? SIZE_TABLES.menPants : SIZE_TABLES.menTops;
+  return category === "pants" || category === "jeans" ? SIZE_TABLES.menPants : SIZE_TABLES.menTops;
 }

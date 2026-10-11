@@ -16,7 +16,11 @@ import { Card, CardHeader, PageHeader, adminInput } from "./admin-ui";
 
 const SIZE_SETS = {
   women: { default: ["XS", "S", "M", "L", "XL"], jeans: ["24", "25", "26", "27", "28", "29", "30"] },
-  men: { default: ["S", "M", "L", "XL", "XXL"], pants: ["28", "30", "32", "34", "36"] },
+  men: {
+    default: ["S", "M", "L", "XL", "XXL"],
+    pants: ["28", "30", "32", "34", "36"],
+    jeans: ["28", "30", "32", "34", "36"],
+  },
 } as const;
 
 function sizesFor(gender: Gender, category: CategorySlug): string[] {

@@ -2,6 +2,7 @@ import { SmartImage as Image } from "@/components/ui/smart-image";
 import { banners, photoUrl } from "@/lib/catalog";
 import { categoryHref } from "@/lib/collections";
 import { LinkButton } from "@/components/ui/button";
+import { ImageReveal } from "@/components/motion/reveal";
 
 const FITS = ["Skinny", "Mom", "Flare", "Wide leg", "Boyfriend", "Tapered"];
 
@@ -9,15 +10,17 @@ export function DenimFeature() {
   return (
     <section className="bg-soft">
       <div className="container-page grid items-center gap-10 py-14 lg:grid-cols-2 lg:gap-16 lg:py-20">
-        <div className="relative aspect-[4/3] overflow-hidden lg:order-2">
-          <Image
-            src={photoUrl(banners.denim)}
-            alt="Stacks of folded denim jeans"
-            fill
-            sizes="(min-width: 1024px) 50vw, 100vw"
-            className="object-cover"
-          />
-        </div>
+        <ImageReveal className="relative aspect-[4/3] lg:order-2">
+          <div className="absolute inset-0">
+            <Image
+              src={photoUrl(banners.denim)}
+              alt="Stacks of folded denim jeans"
+              fill
+              sizes="(min-width: 1024px) 50vw, 100vw"
+              className="object-cover"
+            />
+          </div>
+        </ImageReveal>
         <div>
           <p className="eyebrow text-accent">The denim edit</p>
           <h2 className="heading-display mt-3 text-5xl leading-[0.92] lg:text-7xl">

@@ -43,3 +43,8 @@ next-env.d.ts
 
 # image fetch cache
 /scripts/.cache/
+
+# firebase
+.firebase/
+firebase-debug.log*
+firebase-debug.*.log

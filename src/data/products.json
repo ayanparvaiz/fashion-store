@@ -1,0 +1,5139 @@
+[
+  {
+    "id": "fs-001",
+    "sku": "FS-WDR-001",
+    "slug": "linen-rope-belt-mini-dress-white",
+    "name": "Linen Rope-Belt Mini Dress",
+    "gender": "women",
+    "category": "dresses",
+    "price": 49.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "White",
+      "hex": "#F4F1EA"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 0,
+      "S": 4,
+      "M": 28,
+      "L": 37,
+      "XL": 22
+    },
+    "image": {
+      "id": "qSA-x_pTHqQ",
+      "focusY": 0.45
+    },
+    "description": "Made for main-character moments, this dress moves with you from brunch plans to late-night dinners.",
+    "features": [
+      "Lined bodice",
+      "Hidden back zip",
+      "Lightweight, breathable fabric"
+    ],
+    "material": "100% Linen",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.24,
+    "reviewCount": 371,
+    "sold": 73,
+    "isNew": false,
+    "createdAt": "2026-08-11T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-002",
+    "sku": "FS-WDR-002",
+    "slug": "sage-shirred-midi-slip-dress-sage",
+    "name": "Sage Shirred Midi Slip Dress",
+    "gender": "women",
+    "category": "dresses",
+    "price": 44.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Sage",
+      "hex": "#B7C4B1"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 25,
+      "S": 38,
+      "M": 9,
+      "L": 9,
+      "XL": 0
+    },
+    "image": {
+      "id": "UbrPTBBxaE8",
+      "focusY": 0.45
+    },
+    "description": "A wardrobe hero that does the styling for you — just add your favourite heels or fresh sneakers.",
+    "features": [
+      "Lined bodice",
+      "Hidden back zip",
+      "Lightweight, breathable fabric"
+    ],
+    "material": "95% Polyester, 5% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.77,
+    "reviewCount": 321,
+    "sold": 828,
+    "isNew": true,
+    "createdAt": "2026-10-05T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-003",
+    "sku": "FS-WDR-003",
+    "slug": "blush-cowl-neck-bodycon-dress-blush",
+    "name": "Blush Cowl Neck Bodycon Dress",
+    "gender": "women",
+    "category": "dresses",
+    "price": 39.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Blush",
+      "hex": "#D9A79A"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 16,
+      "S": 32,
+      "M": 6,
+      "L": 0,
+      "XL": 0
+    },
+    "image": {
+      "id": "hCBN7m21gqM",
+      "focusY": 0.45
+    },
+    "description": "Flattering, effortless and ready for every invite on your calendar.",
+    "features": [
+      "Lined bodice",
+      "Hidden back zip",
+      "Lightweight, breathable fabric"
+    ],
+    "material": "95% Polyester, 5% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.72,
+    "reviewCount": 165,
+    "sold": 554,
+    "isNew": false,
+    "createdAt": "2026-07-11T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-004",
+    "sku": "FS-WDR-004",
+    "slug": "terracotta-belted-shirt-dress-terracotta",
+    "name": "Terracotta Belted Shirt Dress",
+    "gender": "women",
+    "category": "dresses",
+    "price": 54.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Terracotta",
+      "hex": "#C8644A"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 38,
+      "S": 6,
+      "M": 8,
+      "L": 6,
+      "XL": 4
+    },
+    "image": {
+      "id": "6_LidIGnJqU",
+      "focusY": 0.45
+    },
+    "description": "Made for main-character moments, this dress moves with you from brunch plans to late-night dinners.",
+    "features": [
+      "Lined bodice",
+      "Hidden back zip",
+      "Lightweight, breathable fabric"
+    ],
+    "material": "95% Polyester, 5% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.43,
+    "reviewCount": 7,
+    "sold": 747,
+    "isNew": false,
+    "createdAt": "2026-05-30T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-005",
+    "sku": "FS-WDR-005",
+    "slug": "red-floral-strappy-mini-dress-red-floral",
+    "name": "Red Floral Strappy Mini Dress",
+    "gender": "women",
+    "category": "dresses",
+    "price": 36.9,
+    "compareAtPrice": 49.9,
+    "color": {
+      "name": "Red Floral",
+      "hex": "#B3262E"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 34,
+      "S": 28,
+      "M": 6,
+      "L": 24,
+      "XL": 5
+    },
+    "image": {
+      "id": "GbMYx4EDq9o",
+      "focusY": 0.45
+    },
+    "description": "A wardrobe hero that does the styling for you — just add your favourite heels or fresh sneakers.",
+    "features": [
+      "Lined bodice",
+      "Hidden back zip",
+      "Lightweight, breathable fabric"
+    ],
+    "material": "95% Polyester, 5% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.44,
+    "reviewCount": 290,
+    "sold": 472,
+    "isNew": false,
+    "createdAt": "2026-06-09T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-006",
+    "sku": "FS-WDR-006",
+    "slug": "paisley-satin-slip-maxi-dress-cream",
+    "name": "Paisley Satin Slip Maxi Dress",
+    "gender": "women",
+    "category": "dresses",
+    "price": 59.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Cream",
+      "hex": "#E9DCC6"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 34,
+      "S": 7,
+      "M": 34,
+      "L": 8,
+      "XL": 11
+    },
+    "image": {
+      "id": "Nn5tNjUVBJk",
+      "focusY": 0.45
+    },
+    "description": "Flattering, effortless and ready for every invite on your calendar.",
+    "features": [
+      "Lined bodice",
+      "Hidden back zip",
+      "Lightweight, breathable fabric"
+    ],
+    "material": "100% Polyester satin",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.56,
+    "reviewCount": 327,
+    "sold": 874,
+    "isNew": true,
+    "createdAt": "2026-09-26T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-007",
+    "sku": "FS-WDR-007",
+    "slug": "black-lace-long-sleeve-midi-dress-black",
+    "name": "Black Lace Long Sleeve Midi Dress",
+    "gender": "women",
+    "category": "dresses",
+    "price": 64.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Black",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 26,
+      "S": 9,
+      "M": 9,
+      "L": 8,
+      "XL": 15
+    },
+    "image": {
+      "id": "y-OMFTKo7UE",
+      "focusY": 0.45
+    },
+    "description": "Made for main-character moments, this dress moves with you from brunch plans to late-night dinners.",
+    "features": [
+      "Lined bodice",
+      "Hidden back zip",
+      "Lightweight, breathable fabric"
+    ],
+    "material": "95% Polyester, 5% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.19,
+    "reviewCount": 199,
+    "sold": 864,
+    "isNew": false,
+    "createdAt": "2026-07-14T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-008",
+    "sku": "FS-WDR-008",
+    "slug": "belted-little-black-dress-black",
+    "name": "Belted Little Black Dress",
+    "gender": "women",
+    "category": "dresses",
+    "price": 42.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Black",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 26,
+      "S": 14,
+      "M": 26,
+      "L": 16,
+      "XL": 0
+    },
+    "image": {
+      "id": "bZDTVuDH38M",
+      "focusY": 0.45
+    },
+    "description": "A wardrobe hero that does the styling for you — just add your favourite heels or fresh sneakers.",
+    "features": [
+      "Lined bodice",
+      "Hidden back zip",
+      "Lightweight, breathable fabric"
+    ],
+    "material": "95% Polyester, 5% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.87,
+    "reviewCount": 142,
+    "sold": 68,
+    "isNew": false,
+    "createdAt": "2026-06-07T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-009",
+    "sku": "FS-WDR-009",
+    "slug": "floral-cami-midi-sundress-white-floral",
+    "name": "Floral Cami Midi Sundress",
+    "gender": "women",
+    "category": "dresses",
+    "price": 52.9,
+    "compareAtPrice": 69.9,
+    "color": {
+      "name": "White Floral",
+      "hex": "#F2EEE6"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 39,
+      "S": 34,
+      "M": 29,
+      "L": 20,
+      "XL": 34
+    },
+    "image": {
+      "id": "cRpcTf0VfuE",
+      "focusY": 0.45
+    },
+    "description": "Flattering, effortless and ready for every invite on your calendar.",
+    "features": [
+      "Lined bodice",
+      "Hidden back zip",
+      "Lightweight, breathable fabric"
+    ],
+    "material": "95% Polyester, 5% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.86,
+    "reviewCount": 351,
+    "sold": 125,
+    "isNew": false,
+    "createdAt": "2026-07-16T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-010",
+    "sku": "FS-WDR-010",
+    "slug": "rust-satin-maxi-dress-rust",
+    "name": "Rust Satin Maxi Dress",
+    "gender": "women",
+    "category": "dresses",
+    "price": 69.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Rust",
+      "hex": "#B85A1E"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 40,
+      "S": 13,
+      "M": 35,
+      "L": 39,
+      "XL": 32
+    },
+    "image": {
+      "id": "x8Z4CrNUPWQ",
+      "focusY": 0.45
+    },
+    "description": "Made for main-character moments, this dress moves with you from brunch plans to late-night dinners.",
+    "features": [
+      "Lined bodice",
+      "Hidden back zip",
+      "Lightweight, breathable fabric"
+    ],
+    "material": "100% Polyester satin",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.16,
+    "reviewCount": 59,
+    "sold": 254,
+    "isNew": true,
+    "createdAt": "2026-10-04T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-011",
+    "sku": "FS-WDR-011",
+    "slug": "paisley-print-maxi-shirt-dress-sage-print",
+    "name": "Paisley Print Maxi Shirt Dress",
+    "gender": "women",
+    "category": "dresses",
+    "price": 58.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Sage Print",
+      "hex": "#A9B39A"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 26,
+      "S": 37,
+      "M": 35,
+      "L": 7,
+      "XL": 15
+    },
+    "image": {
+      "id": "qn0qN-CwDsU",
+      "focusY": 0.45
+    },
+    "description": "A wardrobe hero that does the styling for you — just add your favourite heels or fresh sneakers.",
+    "features": [
+      "Lined bodice",
+      "Hidden back zip",
+      "Lightweight, breathable fabric"
+    ],
+    "material": "95% Polyester, 5% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.73,
+    "reviewCount": 91,
+    "sold": 892,
+    "isNew": false,
+    "createdAt": "2026-05-30T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-012",
+    "sku": "FS-WDR-012",
+    "slug": "emerald-floral-wrap-dress-emerald",
+    "name": "Emerald Floral Wrap Dress",
+    "gender": "women",
+    "category": "dresses",
+    "price": 46.9,
+    "compareAtPrice": 59.9,
+    "color": {
+      "name": "Emerald",
+      "hex": "#1F4D3A"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 0,
+      "S": 20,
+      "M": 0,
+      "L": 20,
+      "XL": 24
+    },
+    "image": {
+      "id": "rwkx7rVVA-o",
+      "focusY": 0.45
+    },
+    "description": "Flattering, effortless and ready for every invite on your calendar.",
+    "features": [
+      "Lined bodice",
+      "Hidden back zip",
+      "Lightweight, breathable fabric"
+    ],
+    "material": "95% Polyester, 5% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.16,
+    "reviewCount": 261,
+    "sold": 161,
+    "isNew": false,
+    "createdAt": "2026-05-16T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-013",
+    "sku": "FS-WTP-001",
+    "slug": "crochet-trim-crop-cami-white",
+    "name": "Crochet Trim Crop Cami",
+    "gender": "women",
+    "category": "tops",
+    "price": 24.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "White",
+      "hex": "#F7F7F5"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 7,
+      "S": 13,
+      "M": 40,
+      "L": 12,
+      "XL": 34
+    },
+    "image": {
+      "id": "-h-O5_xkO0g",
+      "focusY": 0.35
+    },
+    "description": "The easy top that pairs with literally everything in your closet.",
+    "features": [
+      "Cropped length",
+      "Soft stretch fabric",
+      "True to size"
+    ],
+    "material": "92% Cotton, 8% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.69,
+    "reviewCount": 307,
+    "sold": 625,
+    "isNew": false,
+    "createdAt": "2026-05-04T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-014",
+    "sku": "FS-WTP-002",
+    "slug": "mock-neck-long-sleeve-crop-top-white",
+    "name": "Mock Neck Long Sleeve Crop Top",
+    "gender": "women",
+    "category": "tops",
+    "price": 22.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "White",
+      "hex": "#F7F7F5"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 28,
+      "S": 0,
+      "M": 13,
+      "L": 23,
+      "XL": 0
+    },
+    "image": {
+      "id": "mU6vF37vufw",
+      "focusY": 0.35
+    },
+    "description": "Cropped, cute and made to layer — your new everyday essential.",
+    "features": [
+      "Cropped length",
+      "Soft stretch fabric",
+      "True to size"
+    ],
+    "material": "92% Cotton, 8% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.16,
+    "reviewCount": 36,
+    "sold": 675,
+    "isNew": true,
+    "createdAt": "2026-09-25T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-015",
+    "sku": "FS-WTP-003",
+    "slug": "red-floral-off-shoulder-tie-top-red",
+    "name": "Red Floral Off-Shoulder Tie Top",
+    "gender": "women",
+    "category": "tops",
+    "price": 29.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Red",
+      "hex": "#C8202E"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 11,
+      "S": 26,
+      "M": 21,
+      "L": 38,
+      "XL": 31
+    },
+    "image": {
+      "id": "KwYxJg_liVE",
+      "focusY": 0.35
+    },
+    "description": "Soft stretch fabric and a flattering fit you'll reach for on repeat.",
+    "features": [
+      "Cropped length",
+      "Soft stretch fabric",
+      "True to size"
+    ],
+    "material": "92% Cotton, 8% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.16,
+    "reviewCount": 221,
+    "sold": 316,
+    "isNew": false,
+    "createdAt": "2026-07-14T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-016",
+    "sku": "FS-WTP-004",
+    "slug": "striped-knit-crop-tank-navy-stripe",
+    "name": "Striped Knit Crop Tank",
+    "gender": "women",
+    "category": "tops",
+    "price": 21.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Navy Stripe",
+      "hex": "#2B3A55"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 11,
+      "S": 25,
+      "M": 27,
+      "L": 27,
+      "XL": 14
+    },
+    "image": {
+      "id": "5s1e2yqNJNQ",
+      "focusY": 0.35
+    },
+    "description": "The easy top that pairs with literally everything in your closet.",
+    "features": [
+      "Cropped length",
+      "Soft stretch fabric",
+      "True to size"
+    ],
+    "material": "92% Cotton, 8% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.23,
+    "reviewCount": 332,
+    "sold": 506,
+    "isNew": false,
+    "createdAt": "2026-05-04T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-017",
+    "sku": "FS-WTP-005",
+    "slug": "ribbed-long-sleeve-crop-top-cream",
+    "name": "Ribbed Long Sleeve Crop Top",
+    "gender": "women",
+    "category": "tops",
+    "price": 24.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Cream",
+      "hex": "#EDE6D6"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 28,
+      "S": 10,
+      "M": 11,
+      "L": 28,
+      "XL": 13
+    },
+    "image": {
+      "id": "SgIQxcePMco",
+      "focusY": 0.35
+    },
+    "description": "Cropped, cute and made to layer — your new everyday essential.",
+    "features": [
+      "Cropped length",
+      "Soft stretch fabric",
+      "True to size"
+    ],
+    "material": "92% Cotton, 8% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.19,
+    "reviewCount": 67,
+    "sold": 487,
+    "isNew": true,
+    "createdAt": "2026-09-21T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-018",
+    "sku": "FS-WTP-006",
+    "slug": "faux-leather-crop-tee-black",
+    "name": "Faux Leather Crop Tee",
+    "gender": "women",
+    "category": "tops",
+    "price": 32.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Black",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 37,
+      "S": 38,
+      "M": 13,
+      "L": 19,
+      "XL": 6
+    },
+    "image": {
+      "id": "FcORNGehslM",
+      "focusY": 0.35
+    },
+    "description": "Soft stretch fabric and a flattering fit you'll reach for on repeat.",
+    "features": [
+      "Cropped length",
+      "Soft stretch fabric",
+      "True to size"
+    ],
+    "material": "Polyurethane-coated viscose",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.54,
+    "reviewCount": 87,
+    "sold": 383,
+    "isNew": false,
+    "createdAt": "2026-06-27T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-019",
+    "sku": "FS-WTP-007",
+    "slug": "cap-sleeve-sweetheart-crop-top-sky-blue",
+    "name": "Cap Sleeve Sweetheart Crop Top",
+    "gender": "women",
+    "category": "tops",
+    "price": 26.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Sky Blue",
+      "hex": "#A9C7E3"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 6,
+      "S": 4,
+      "M": 22,
+      "L": 32,
+      "XL": 7
+    },
+    "image": {
+      "id": "0jaoxej10-0",
+      "focusY": 0.35
+    },
+    "description": "The easy top that pairs with literally everything in your closet.",
+    "features": [
+      "Cropped length",
+      "Soft stretch fabric",
+      "True to size"
+    ],
+    "material": "92% Cotton, 8% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.14,
+    "reviewCount": 134,
+    "sold": 596,
+    "isNew": false,
+    "createdAt": "2026-06-28T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-020",
+    "sku": "FS-WTP-008",
+    "slug": "essential-square-neck-cami-white",
+    "name": "Essential Square Neck Cami",
+    "gender": "women",
+    "category": "tops",
+    "price": 16.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "White",
+      "hex": "#F7F7F5"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 21,
+      "S": 34,
+      "M": 10,
+      "L": 40,
+      "XL": 21
+    },
+    "image": {
+      "id": "YbYY5B4J14A",
+      "focusY": 0.35
+    },
+    "description": "Cropped, cute and made to layer — your new everyday essential.",
+    "features": [
+      "Cropped length",
+      "Soft stretch fabric",
+      "True to size"
+    ],
+    "material": "92% Cotton, 8% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.94,
+    "reviewCount": 9,
+    "sold": 189,
+    "isNew": false,
+    "createdAt": "2026-08-08T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-021",
+    "sku": "FS-WTP-009",
+    "slug": "striped-boxy-crop-tee-red-stripe",
+    "name": "Striped Boxy Crop Tee",
+    "gender": "women",
+    "category": "tops",
+    "price": 19.9,
+    "compareAtPrice": 27.9,
+    "color": {
+      "name": "Red Stripe",
+      "hex": "#B8312F"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 20,
+      "S": 0,
+      "M": 11,
+      "L": 19,
+      "XL": 5
+    },
+    "image": {
+      "id": "UVHB7rkWIYc",
+      "focusY": 0.35
+    },
+    "description": "Soft stretch fabric and a flattering fit you'll reach for on repeat.",
+    "features": [
+      "Cropped length",
+      "Soft stretch fabric",
+      "True to size"
+    ],
+    "material": "92% Cotton, 8% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.27,
+    "reviewCount": 231,
+    "sold": 549,
+    "isNew": false,
+    "createdAt": "2026-05-17T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-022",
+    "sku": "FS-WTP-010",
+    "slug": "graphic-slogan-crop-tee-white",
+    "name": "Graphic Slogan Crop Tee",
+    "gender": "women",
+    "category": "tops",
+    "price": 22.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "White",
+      "hex": "#F7F7F5"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 7,
+      "S": 24,
+      "M": 35,
+      "L": 35,
+      "XL": 27
+    },
+    "image": {
+      "id": "6VMGPluOpu0",
+      "focusY": 0.35
+    },
+    "description": "The easy top that pairs with literally everything in your closet.",
+    "features": [
+      "Cropped length",
+      "Soft stretch fabric",
+      "True to size"
+    ],
+    "material": "92% Cotton, 8% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.4,
+    "reviewCount": 179,
+    "sold": 517,
+    "isNew": false,
+    "createdAt": "2026-07-19T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-023",
+    "sku": "FS-WJN-001",
+    "slug": "distressed-skinny-ankle-jeans-light-wash",
+    "name": "Distressed Skinny Ankle Jeans",
+    "gender": "women",
+    "category": "jeans",
+    "price": 45.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Light Wash",
+      "hex": "#8FA9C6"
+    },
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "stock": {
+      "24": 7,
+      "25": 22,
+      "26": 10,
+      "27": 38,
+      "28": 5,
+      "29": 14,
+      "30": 31
+    },
+    "image": {
+      "id": "ySwv-vRZ3nU",
+      "focusY": 0.55
+    },
+    "description": "Denim that hugs in all the right places with stretch that lasts all day.",
+    "features": [
+      "High-rise waist",
+      "Five-pocket styling",
+      "Zip fly with button closure"
+    ],
+    "material": "98% Cotton, 2% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.45,
+    "reviewCount": 335,
+    "sold": 255,
+    "isNew": false,
+    "createdAt": "2026-08-02T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-024",
+    "sku": "FS-WJN-002",
+    "slug": "tie-waist-paperbag-mom-jeans-light-wash",
+    "name": "Tie-Waist Paperbag Mom Jeans",
+    "gender": "women",
+    "category": "jeans",
+    "price": 52.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Light Wash",
+      "hex": "#9DB4CC"
+    },
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "stock": {
+      "24": 23,
+      "25": 40,
+      "26": 32,
+      "27": 0,
+      "28": 0,
+      "29": 19,
+      "30": 4
+    },
+    "image": {
+      "id": "xt-05J1bhzQ",
+      "focusY": 0.55
+    },
+    "description": "Your perfect-fit jeans — high-rise, comfortable and endlessly versatile.",
+    "features": [
+      "High-rise waist",
+      "Five-pocket styling",
+      "Zip fly with button closure"
+    ],
+    "material": "98% Cotton, 2% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.2,
+    "reviewCount": 99,
+    "sold": 210,
+    "isNew": false,
+    "createdAt": "2026-06-22T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-025",
+    "sku": "FS-WJN-003",
+    "slug": "ripped-high-rise-skinny-jeans-mid-wash",
+    "name": "Ripped High Rise Skinny Jeans",
+    "gender": "women",
+    "category": "jeans",
+    "price": 49.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Mid Wash",
+      "hex": "#4F6E96"
+    },
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "stock": {
+      "24": 33,
+      "25": 0,
+      "26": 34,
+      "27": 24,
+      "28": 34,
+      "29": 36,
+      "30": 11
+    },
+    "image": {
+      "id": "LZWRNQN2dJE",
+      "focusY": 0.55
+    },
+    "description": "Premium stretch denim with a vintage-inspired wash.",
+    "features": [
+      "High-rise waist",
+      "Five-pocket styling",
+      "Zip fly with button closure"
+    ],
+    "material": "98% Cotton, 2% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.5,
+    "reviewCount": 64,
+    "sold": 205,
+    "isNew": false,
+    "createdAt": "2026-06-05T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-026",
+    "sku": "FS-WJN-004",
+    "slug": "white-high-waist-skinny-jeans-white",
+    "name": "White High Waist Skinny Jeans",
+    "gender": "women",
+    "category": "jeans",
+    "price": 46.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "White",
+      "hex": "#F7F7F5"
+    },
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "stock": {
+      "24": 25,
+      "25": 40,
+      "26": 31,
+      "27": 32,
+      "28": 4,
+      "29": 29,
+      "30": 33
+    },
+    "image": {
+      "id": "au5f7HyfATc",
+      "focusY": 0.55
+    },
+    "description": "Denim that hugs in all the right places with stretch that lasts all day.",
+    "features": [
+      "High-rise waist",
+      "Five-pocket styling",
+      "Zip fly with button closure"
+    ],
+    "material": "98% Cotton, 2% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.59,
+    "reviewCount": 15,
+    "sold": 404,
+    "isNew": false,
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-027",
+    "sku": "FS-WJN-005",
+    "slug": "sculpt-high-rise-skinny-jeans-mid-blue",
+    "name": "Sculpt High Rise Skinny Jeans",
+    "gender": "women",
+    "category": "jeans",
+    "price": 54.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Mid Blue",
+      "hex": "#3E5F8A"
+    },
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "stock": {
+      "24": 16,
+      "25": 0,
+      "26": 32,
+      "27": 15,
+      "28": 25,
+      "29": 11,
+      "30": 26
+    },
+    "image": {
+      "id": "Oh65WnW2u44",
+      "focusY": 0.55
+    },
+    "description": "Your perfect-fit jeans — high-rise, comfortable and endlessly versatile.",
+    "features": [
+      "High-rise waist",
+      "Five-pocket styling",
+      "Zip fly with button closure"
+    ],
+    "material": "98% Cotton, 2% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.87,
+    "reviewCount": 198,
+    "sold": 225,
+    "isNew": false,
+    "createdAt": "2026-09-17T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-028",
+    "sku": "FS-WJN-006",
+    "slug": "dark-rinse-super-stretch-jeans-dark-wash",
+    "name": "Dark Rinse Super Stretch Jeans",
+    "gender": "women",
+    "category": "jeans",
+    "price": 54.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Dark Wash",
+      "hex": "#26354F"
+    },
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "stock": {
+      "24": 21,
+      "25": 7,
+      "26": 26,
+      "27": 4,
+      "28": 31,
+      "29": 20,
+      "30": 35
+    },
+    "image": {
+      "id": "EURVEqZXh0o",
+      "focusY": 0.55
+    },
+    "description": "Premium stretch denim with a vintage-inspired wash.",
+    "features": [
+      "High-rise waist",
+      "Five-pocket styling",
+      "Zip fly with button closure"
+    ],
+    "material": "98% Cotton, 2% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.19,
+    "reviewCount": 348,
+    "sold": 431,
+    "isNew": true,
+    "createdAt": "2026-09-25T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-029",
+    "sku": "FS-WJN-007",
+    "slug": "belted-wide-leg-denim-trousers-mid-wash",
+    "name": "Belted Wide Leg Denim Trousers",
+    "gender": "women",
+    "category": "jeans",
+    "price": 59.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Mid Wash",
+      "hex": "#3D5A86"
+    },
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "stock": {
+      "24": 3,
+      "25": 0,
+      "26": 1,
+      "27": 0,
+      "28": 1,
+      "29": 2,
+      "30": 1
+    },
+    "image": {
+      "id": "TCRgPA4kbq4",
+      "focusY": 0.55
+    },
+    "description": "Denim that hugs in all the right places with stretch that lasts all day.",
+    "features": [
+      "High-rise waist",
+      "Five-pocket styling",
+      "Zip fly with button closure"
+    ],
+    "material": "98% Cotton, 2% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.13,
+    "reviewCount": 41,
+    "sold": 762,
+    "isNew": false,
+    "createdAt": "2026-06-05T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-030",
+    "sku": "FS-WJN-008",
+    "slug": "patched-boyfriend-jeans-mid-wash",
+    "name": "Patched Boyfriend Jeans",
+    "gender": "women",
+    "category": "jeans",
+    "price": 49.9,
+    "compareAtPrice": 64.9,
+    "color": {
+      "name": "Mid Wash",
+      "hex": "#4A6A90"
+    },
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "stock": {
+      "24": 8,
+      "25": 39,
+      "26": 24,
+      "27": 28,
+      "28": 32,
+      "29": 33,
+      "30": 7
+    },
+    "image": {
+      "id": "BciCcl8tjVU",
+      "focusY": 0.55
+    },
+    "description": "Your perfect-fit jeans — high-rise, comfortable and endlessly versatile.",
+    "features": [
+      "High-rise waist",
+      "Five-pocket styling",
+      "Zip fly with button closure"
+    ],
+    "material": "98% Cotton, 2% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.85,
+    "reviewCount": 178,
+    "sold": 477,
+    "isNew": false,
+    "createdAt": "2026-05-10T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-031",
+    "sku": "FS-WJN-009",
+    "slug": "raw-hem-flare-jeans-dark-wash",
+    "name": "Raw Hem Flare Jeans",
+    "gender": "women",
+    "category": "jeans",
+    "price": 56.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Dark Wash",
+      "hex": "#2E4466"
+    },
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "stock": {
+      "24": 5,
+      "25": 6,
+      "26": 17,
+      "27": 36,
+      "28": 5,
+      "29": 29,
+      "30": 0
+    },
+    "image": {
+      "id": "rRaMgfGdEEI",
+      "focusY": 0.55
+    },
+    "description": "Premium stretch denim with a vintage-inspired wash.",
+    "features": [
+      "High-rise waist",
+      "Five-pocket styling",
+      "Zip fly with button closure"
+    ],
+    "material": "98% Cotton, 2% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.62,
+    "reviewCount": 279,
+    "sold": 829,
+    "isNew": false,
+    "createdAt": "2026-06-13T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-032",
+    "sku": "FS-WJN-010",
+    "slug": "studded-cuffed-boyfriend-jeans-mid-wash",
+    "name": "Studded Cuffed Boyfriend Jeans",
+    "gender": "women",
+    "category": "jeans",
+    "price": 58.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Mid Wash",
+      "hex": "#476A97"
+    },
+    "sizes": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "stock": {
+      "24": 3,
+      "25": 1,
+      "26": 3,
+      "27": 3,
+      "28": 3,
+      "29": 2,
+      "30": 2
+    },
+    "image": {
+      "id": "tISS8kXY7gQ",
+      "focusY": 0.55
+    },
+    "description": "Denim that hugs in all the right places with stretch that lasts all day.",
+    "features": [
+      "High-rise waist",
+      "Five-pocket styling",
+      "Zip fly with button closure"
+    ],
+    "material": "98% Cotton, 2% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.54,
+    "reviewCount": 166,
+    "sold": 290,
+    "isNew": false,
+    "createdAt": "2026-08-14T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-033",
+    "sku": "FS-WHD-001",
+    "slug": "oversized-logo-hoodie-black",
+    "name": "Oversized Logo Hoodie",
+    "gender": "women",
+    "category": "hoodies",
+    "price": 44.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Black",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 40,
+      "S": 16,
+      "M": 14,
+      "L": 25,
+      "XL": 21
+    },
+    "image": {
+      "id": "1i9K55ni5Dk",
+      "focusY": 0.4
+    },
+    "description": "Cosy, oversized and impossibly soft — the hoodie you'll steal back from everyone.",
+    "features": [
+      "Brushed fleece lining",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem"
+    ],
+    "material": "80% Cotton, 20% Polyester fleece",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.66,
+    "reviewCount": 90,
+    "sold": 302,
+    "isNew": false,
+    "createdAt": "2026-07-17T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-034",
+    "sku": "FS-WHD-002",
+    "slug": "cloud-fleece-pullover-hoodie-white",
+    "name": "Cloud Fleece Pullover Hoodie",
+    "gender": "women",
+    "category": "hoodies",
+    "price": 42.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "White",
+      "hex": "#F7F7F5"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 0,
+      "S": 31,
+      "M": 40,
+      "L": 14,
+      "XL": 28
+    },
+    "image": {
+      "id": "V1dX9O1B4pM",
+      "focusY": 0.4
+    },
+    "description": "Brushed fleece inside, clean finish outside. Comfort levels: maximum.",
+    "features": [
+      "Brushed fleece lining",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem"
+    ],
+    "material": "80% Cotton, 20% Polyester fleece",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.76,
+    "reviewCount": 317,
+    "sold": 140,
+    "isNew": true,
+    "createdAt": "2026-10-09T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-035",
+    "sku": "FS-WHD-003",
+    "slug": "blush-oversized-hoodie-blush-pink",
+    "name": "Blush Oversized Hoodie",
+    "gender": "women",
+    "category": "hoodies",
+    "price": 42.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Blush Pink",
+      "hex": "#EDC3C3"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 2,
+      "S": 1,
+      "M": 2,
+      "L": 2,
+      "XL": 1
+    },
+    "image": {
+      "id": "dN67hPE5KWY",
+      "focusY": 0.4
+    },
+    "description": "A heavyweight staple built for chilly air-con offices and late-night drives.",
+    "features": [
+      "Brushed fleece lining",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem"
+    ],
+    "material": "80% Cotton, 20% Polyester fleece",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.18,
+    "reviewCount": 329,
+    "sold": 153,
+    "isNew": false,
+    "createdAt": "2026-06-21T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-036",
+    "sku": "FS-WHD-004",
+    "slug": "lilac-graphic-hoodie-lilac",
+    "name": "Lilac Graphic Hoodie",
+    "gender": "women",
+    "category": "hoodies",
+    "price": 46.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Lilac",
+      "hex": "#C9B6DE"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 8,
+      "S": 26,
+      "M": 37,
+      "L": 4,
+      "XL": 0
+    },
+    "image": {
+      "id": "aAPLeoSmbk4",
+      "focusY": 0.4
+    },
+    "description": "Cosy, oversized and impossibly soft — the hoodie you'll steal back from everyone.",
+    "features": [
+      "Brushed fleece lining",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem"
+    ],
+    "material": "80% Cotton, 20% Polyester fleece",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.27,
+    "reviewCount": 111,
+    "sold": 595,
+    "isNew": false,
+    "createdAt": "2026-05-03T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-037",
+    "sku": "FS-WHD-005",
+    "slug": "cherry-red-hoodie-cherry",
+    "name": "Cherry Red Hoodie",
+    "gender": "women",
+    "category": "hoodies",
+    "price": 39.9,
+    "compareAtPrice": 49.9,
+    "color": {
+      "name": "Cherry",
+      "hex": "#C42A22"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 23,
+      "S": 15,
+      "M": 28,
+      "L": 23,
+      "XL": 38
+    },
+    "image": {
+      "id": "k9RYF3ii0g8",
+      "focusY": 0.4
+    },
+    "description": "Brushed fleece inside, clean finish outside. Comfort levels: maximum.",
+    "features": [
+      "Brushed fleece lining",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem"
+    ],
+    "material": "80% Cotton, 20% Polyester fleece",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.74,
+    "reviewCount": 184,
+    "sold": 147,
+    "isNew": false,
+    "createdAt": "2026-07-22T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-038",
+    "sku": "FS-WHD-006",
+    "slug": "cream-boyfriend-hoodie-cream",
+    "name": "Cream Boyfriend Hoodie",
+    "gender": "women",
+    "category": "hoodies",
+    "price": 44.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Cream",
+      "hex": "#F1EAD7"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 35,
+      "S": 36,
+      "M": 5,
+      "L": 16,
+      "XL": 16
+    },
+    "image": {
+      "id": "uNMH2TKD0MQ",
+      "focusY": 0.4
+    },
+    "description": "A heavyweight staple built for chilly air-con offices and late-night drives.",
+    "features": [
+      "Brushed fleece lining",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem"
+    ],
+    "material": "80% Cotton, 20% Polyester fleece",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.23,
+    "reviewCount": 245,
+    "sold": 427,
+    "isNew": false,
+    "createdAt": "2026-06-04T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-039",
+    "sku": "FS-WHD-007",
+    "slug": "forest-green-embroidered-hoodie-forest",
+    "name": "Forest Green Embroidered Hoodie",
+    "gender": "women",
+    "category": "hoodies",
+    "price": 46.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Forest",
+      "hex": "#1E4A3F"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 35,
+      "S": 29,
+      "M": 22,
+      "L": 7,
+      "XL": 38
+    },
+    "image": {
+      "id": "SGVyegCsh-U",
+      "focusY": 0.4
+    },
+    "description": "Cosy, oversized and impossibly soft — the hoodie you'll steal back from everyone.",
+    "features": [
+      "Brushed fleece lining",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem"
+    ],
+    "material": "80% Cotton, 20% Polyester fleece",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.54,
+    "reviewCount": 236,
+    "sold": 752,
+    "isNew": false,
+    "createdAt": "2026-08-18T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-040",
+    "sku": "FS-WHD-008",
+    "slug": "mustard-relaxed-hoodie-mustard",
+    "name": "Mustard Relaxed Hoodie",
+    "gender": "women",
+    "category": "hoodies",
+    "price": 39.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Mustard",
+      "hex": "#E0A526"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 40,
+      "S": 18,
+      "M": 0,
+      "L": 0,
+      "XL": 12
+    },
+    "image": {
+      "id": "4w_Yqqsb8s8",
+      "focusY": 0.4
+    },
+    "description": "Brushed fleece inside, clean finish outside. Comfort levels: maximum.",
+    "features": [
+      "Brushed fleece lining",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem"
+    ],
+    "material": "80% Cotton, 20% Polyester fleece",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.64,
+    "reviewCount": 43,
+    "sold": 584,
+    "isNew": true,
+    "createdAt": "2026-09-21T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-041",
+    "sku": "FS-WJK-001",
+    "slug": "red-double-breasted-wool-coat-red",
+    "name": "Red Double-Breasted Wool Coat",
+    "gender": "women",
+    "category": "jackets",
+    "price": 129.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Red",
+      "hex": "#C2362B"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 30,
+      "S": 16,
+      "M": 0,
+      "L": 36,
+      "XL": 26
+    },
+    "image": {
+      "id": "Xn7GvimQrk8",
+      "focusY": 0.4
+    },
+    "description": "The finishing layer that instantly elevates jeans and a tee.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "60% Wool, 40% Polyester",
+    "care": [
+      "Dry clean only",
+      "Steam to refresh",
+      "Store folded or on a wide hanger"
+    ],
+    "rating": 4.35,
+    "reviewCount": 266,
+    "sold": 551,
+    "isNew": false,
+    "createdAt": "2026-08-22T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-042",
+    "sku": "FS-WJK-002",
+    "slug": "classic-faux-leather-biker-jacket-espresso",
+    "name": "Classic Faux Leather Biker Jacket",
+    "gender": "women",
+    "category": "jackets",
+    "price": 89.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Espresso",
+      "hex": "#3B2A23"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 28,
+      "S": 33,
+      "M": 0,
+      "L": 32,
+      "XL": 27
+    },
+    "image": {
+      "id": "zzKT12IXGfA",
+      "focusY": 0.4
+    },
+    "description": "Structured, statement-making and built to last season after season.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "Polyurethane faux leather",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.92,
+    "reviewCount": 167,
+    "sold": 206,
+    "isNew": false,
+    "createdAt": "2026-08-05T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-043",
+    "sku": "FS-WJK-003",
+    "slug": "oversized-utility-jacket-olive",
+    "name": "Oversized Utility Jacket",
+    "gender": "women",
+    "category": "jackets",
+    "price": 79.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Olive",
+      "hex": "#5B5A3A"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 4,
+      "S": 20,
+      "M": 14,
+      "L": 24,
+      "XL": 21
+    },
+    "image": {
+      "id": "ua9ReZlzcIE",
+      "focusY": 0.4
+    },
+    "description": "Throw it on and you're done — outerwear with serious style credentials.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "Shell: 100% Polyester. Lining: 100% Polyester",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.48,
+    "reviewCount": 122,
+    "sold": 544,
+    "isNew": false,
+    "createdAt": "2026-06-28T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-044",
+    "sku": "FS-WJK-004",
+    "slug": "oversized-white-blazer-coat-white",
+    "name": "Oversized White Blazer Coat",
+    "gender": "women",
+    "category": "jackets",
+    "price": 94.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "White",
+      "hex": "#F7F7F5"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 18,
+      "S": 9,
+      "M": 29,
+      "L": 16,
+      "XL": 11
+    },
+    "image": {
+      "id": "iRAOJYtPHZE",
+      "focusY": 0.4
+    },
+    "description": "The finishing layer that instantly elevates jeans and a tee.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "Shell: 100% Polyester. Lining: 100% Polyester",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.79,
+    "reviewCount": 260,
+    "sold": 566,
+    "isNew": false,
+    "createdAt": "2026-09-17T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-045",
+    "sku": "FS-WJK-005",
+    "slug": "mustard-tailored-blazer-mustard",
+    "name": "Mustard Tailored Blazer",
+    "gender": "women",
+    "category": "jackets",
+    "price": 74.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Mustard",
+      "hex": "#C98A2B"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 9,
+      "S": 27,
+      "M": 0,
+      "L": 11,
+      "XL": 12
+    },
+    "image": {
+      "id": "mFyvoh63PvM",
+      "focusY": 0.4
+    },
+    "description": "Structured, statement-making and built to last season after season.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "Shell: 100% Polyester. Lining: 100% Polyester",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.9,
+    "reviewCount": 141,
+    "sold": 251,
+    "isNew": false,
+    "createdAt": "2026-05-05T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-046",
+    "sku": "FS-WJK-006",
+    "slug": "shearling-trim-aviator-jacket-cream",
+    "name": "Shearling Trim Aviator Jacket",
+    "gender": "women",
+    "category": "jackets",
+    "price": 109.9,
+    "compareAtPrice": 139.9,
+    "color": {
+      "name": "Cream",
+      "hex": "#EDE3D3"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 32,
+      "S": 6,
+      "M": 10,
+      "L": 0,
+      "XL": 26
+    },
+    "image": {
+      "id": "m2evGtglxT4",
+      "focusY": 0.4
+    },
+    "description": "Throw it on and you're done — outerwear with serious style credentials.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "Shell: 100% Polyester. Lining: 100% Polyester",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.91,
+    "reviewCount": 98,
+    "sold": 530,
+    "isNew": false,
+    "createdAt": "2026-09-02T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-047",
+    "sku": "FS-WJK-007",
+    "slug": "beige-single-breasted-blazer-beige",
+    "name": "Beige Single-Breasted Blazer",
+    "gender": "women",
+    "category": "jackets",
+    "price": 79.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Beige",
+      "hex": "#CDB79E"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 10,
+      "S": 19,
+      "M": 28,
+      "L": 0,
+      "XL": 40
+    },
+    "image": {
+      "id": "ZnHpOhHnkDY",
+      "focusY": 0.4
+    },
+    "description": "The finishing layer that instantly elevates jeans and a tee.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "Shell: 100% Polyester. Lining: 100% Polyester",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.84,
+    "reviewCount": 112,
+    "sold": 515,
+    "isNew": false,
+    "createdAt": "2026-05-05T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-048",
+    "sku": "FS-WJK-008",
+    "slug": "grey-oversized-boyfriend-blazer-grey",
+    "name": "Grey Oversized Boyfriend Blazer",
+    "gender": "women",
+    "category": "jackets",
+    "price": 84.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Grey",
+      "hex": "#7E8078"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 37,
+      "S": 5,
+      "M": 7,
+      "L": 37,
+      "XL": 14
+    },
+    "image": {
+      "id": "spTRNa8ErJY",
+      "focusY": 0.4
+    },
+    "description": "Structured, statement-making and built to last season after season.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "Shell: 100% Polyester. Lining: 100% Polyester",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.53,
+    "reviewCount": 53,
+    "sold": 718,
+    "isNew": false,
+    "createdAt": "2026-08-02T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-049",
+    "sku": "FS-WJK-009",
+    "slug": "black-moto-faux-leather-jacket-black",
+    "name": "Black Moto Faux Leather Jacket",
+    "gender": "women",
+    "category": "jackets",
+    "price": 89.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Black",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 25,
+      "S": 28,
+      "M": 8,
+      "L": 7,
+      "XL": 0
+    },
+    "image": {
+      "id": "a3QXIQI8z90",
+      "focusY": 0.4
+    },
+    "description": "Throw it on and you're done — outerwear with serious style credentials.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "Polyurethane faux leather",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.91,
+    "reviewCount": 312,
+    "sold": 501,
+    "isNew": false,
+    "createdAt": "2026-09-18T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-050",
+    "sku": "FS-WJK-010",
+    "slug": "scarlet-tailored-blazer-scarlet",
+    "name": "Scarlet Tailored Blazer",
+    "gender": "women",
+    "category": "jackets",
+    "price": 74.9,
+    "compareAtPrice": 94.9,
+    "color": {
+      "name": "Scarlet",
+      "hex": "#C21E35"
+    },
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": {
+      "XS": 30,
+      "S": 18,
+      "M": 13,
+      "L": 34,
+      "XL": 24
+    },
+    "image": {
+      "id": "xJYtyE9dlsc",
+      "focusY": 0.4
+    },
+    "description": "The finishing layer that instantly elevates jeans and a tee.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "Shell: 100% Polyester. Lining: 100% Polyester",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.69,
+    "reviewCount": 245,
+    "sold": 250,
+    "isNew": false,
+    "createdAt": "2026-09-05T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-051",
+    "sku": "FS-MTS-001",
+    "slug": "saigon-script-back-print-tee-white",
+    "name": "Saigon Script Back Print Tee",
+    "gender": "men",
+    "category": "t-shirts",
+    "price": 29.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "White",
+      "hex": "#F7F7F5"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 10,
+      "M": 40,
+      "L": 11,
+      "XL": 30,
+      "XXL": 33
+    },
+    "image": {
+      "id": "TysFvOl78u0",
+      "focusY": 0.35
+    },
+    "description": "Heavyweight cotton, boxy fit and a print that does the talking.",
+    "features": [
+      "Dropped shoulders",
+      "Ribbed crew neck",
+      "Pre-shrunk cotton"
+    ],
+    "material": "100% Cotton, 240 GSM",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.69,
+    "reviewCount": 168,
+    "sold": 739,
+    "isNew": true,
+    "createdAt": "2026-10-01T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-052",
+    "sku": "FS-MTS-002",
+    "slug": "red-script-back-print-tee-black",
+    "name": "Red Script Back Print Tee",
+    "gender": "men",
+    "category": "t-shirts",
+    "price": 29.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Black",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 23,
+      "M": 22,
+      "L": 36,
+      "XL": 23,
+      "XXL": 24
+    },
+    "image": {
+      "id": "RYqL5hecEJo",
+      "focusY": 0.35
+    },
+    "description": "Streetwear essential cut from thick, premium cotton that keeps its shape.",
+    "features": [
+      "Dropped shoulders",
+      "Ribbed crew neck",
+      "Pre-shrunk cotton"
+    ],
+    "material": "100% Cotton, 240 GSM",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.43,
+    "reviewCount": 25,
+    "sold": 117,
+    "isNew": false,
+    "createdAt": "2026-05-20T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-053",
+    "sku": "FS-MTS-003",
+    "slug": "skeleton-peace-graphic-tee-black",
+    "name": "Skeleton Peace Graphic Tee",
+    "gender": "men",
+    "category": "t-shirts",
+    "price": 27.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Black",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 38,
+      "M": 0,
+      "L": 0,
+      "XL": 4,
+      "XXL": 4
+    },
+    "image": {
+      "id": "wzRKn-AjKf4",
+      "focusY": 0.35
+    },
+    "description": "The tee you'll wear until it's your favourite — and then some more.",
+    "features": [
+      "Dropped shoulders",
+      "Ribbed crew neck",
+      "Pre-shrunk cotton"
+    ],
+    "material": "100% Cotton, 240 GSM",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.29,
+    "reviewCount": 54,
+    "sold": 387,
+    "isNew": false,
+    "createdAt": "2026-06-16T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-054",
+    "sku": "FS-MTS-004",
+    "slug": "heavyweight-oversized-tee-black",
+    "name": "Heavyweight Oversized Tee",
+    "gender": "men",
+    "category": "t-shirts",
+    "price": 32.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Black",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 40,
+      "M": 40,
+      "L": 25,
+      "XL": 30,
+      "XXL": 18
+    },
+    "image": {
+      "id": "F5pJVjdwc-s",
+      "focusY": 0.35
+    },
+    "description": "Heavyweight cotton, boxy fit and a print that does the talking.",
+    "features": [
+      "Dropped shoulders",
+      "Ribbed crew neck",
+      "Pre-shrunk cotton"
+    ],
+    "material": "100% Cotton, 240 GSM",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.9,
+    "reviewCount": 202,
+    "sold": 145,
+    "isNew": false,
+    "createdAt": "2026-07-30T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-055",
+    "sku": "FS-MTS-005",
+    "slug": "flawless-graphic-oversized-tee-black",
+    "name": "Flawless Graphic Oversized Tee",
+    "gender": "men",
+    "category": "t-shirts",
+    "price": 29.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Black",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 12,
+      "M": 0,
+      "L": 26,
+      "XL": 32,
+      "XXL": 15
+    },
+    "image": {
+      "id": "cxQqh5FQt6g",
+      "focusY": 0.35
+    },
+    "description": "Streetwear essential cut from thick, premium cotton that keeps its shape.",
+    "features": [
+      "Dropped shoulders",
+      "Ribbed crew neck",
+      "Pre-shrunk cotton"
+    ],
+    "material": "100% Cotton, 240 GSM",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.87,
+    "reviewCount": 41,
+    "sold": 766,
+    "isNew": false,
+    "createdAt": "2026-09-08T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-056",
+    "sku": "FS-MTS-006",
+    "slug": "embroidered-signature-boxy-tee-white",
+    "name": "Embroidered Signature Boxy Tee",
+    "gender": "men",
+    "category": "t-shirts",
+    "price": 27.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "White",
+      "hex": "#F7F7F5"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 15,
+      "M": 29,
+      "L": 8,
+      "XL": 29,
+      "XXL": 32
+    },
+    "image": {
+      "id": "OcI6sNgM_NQ",
+      "focusY": 0.35
+    },
+    "description": "The tee you'll wear until it's your favourite — and then some more.",
+    "features": [
+      "Dropped shoulders",
+      "Ribbed crew neck",
+      "Pre-shrunk cotton"
+    ],
+    "material": "100% Cotton, 240 GSM",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.43,
+    "reviewCount": 21,
+    "sold": 118,
+    "isNew": true,
+    "createdAt": "2026-10-02T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-057",
+    "sku": "FS-MTS-007",
+    "slug": "line-art-back-print-tee-white",
+    "name": "Line Art Back Print Tee",
+    "gender": "men",
+    "category": "t-shirts",
+    "price": 27.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "White",
+      "hex": "#F7F7F5"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 0,
+      "M": 13,
+      "L": 36,
+      "XL": 12,
+      "XXL": 29
+    },
+    "image": {
+      "id": "JEpwot2mwko",
+      "focusY": 0.35
+    },
+    "description": "Heavyweight cotton, boxy fit and a print that does the talking.",
+    "features": [
+      "Dropped shoulders",
+      "Ribbed crew neck",
+      "Pre-shrunk cotton"
+    ],
+    "material": "100% Cotton, 240 GSM",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.18,
+    "reviewCount": 183,
+    "sold": 409,
+    "isNew": true,
+    "createdAt": "2026-09-21T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-058",
+    "sku": "FS-MTS-008",
+    "slug": "lavender-arch-graphic-tee-lavender",
+    "name": "Lavender Arch Graphic Tee",
+    "gender": "men",
+    "category": "t-shirts",
+    "price": 29.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Lavender",
+      "hex": "#9D8BD0"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 36,
+      "M": 15,
+      "L": 39,
+      "XL": 28,
+      "XXL": 0
+    },
+    "image": {
+      "id": "7JmhXPtW5Co",
+      "focusY": 0.35
+    },
+    "description": "Streetwear essential cut from thick, premium cotton that keeps its shape.",
+    "features": [
+      "Dropped shoulders",
+      "Ribbed crew neck",
+      "Pre-shrunk cotton"
+    ],
+    "material": "100% Cotton, 240 GSM",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.26,
+    "reviewCount": 52,
+    "sold": 771,
+    "isNew": false,
+    "createdAt": "2026-08-08T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-059",
+    "sku": "FS-MTS-009",
+    "slug": "bubble-letter-back-print-tee-brown",
+    "name": "Bubble Letter Back Print Tee",
+    "gender": "men",
+    "category": "t-shirts",
+    "price": 29.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Brown",
+      "hex": "#4A3B30"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 39,
+      "M": 0,
+      "L": 23,
+      "XL": 34,
+      "XXL": 15
+    },
+    "image": {
+      "id": "3WrRx1nkvQs",
+      "focusY": 0.35
+    },
+    "description": "The tee you'll wear until it's your favourite — and then some more.",
+    "features": [
+      "Dropped shoulders",
+      "Ribbed crew neck",
+      "Pre-shrunk cotton"
+    ],
+    "material": "100% Cotton, 240 GSM",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.12,
+    "reviewCount": 335,
+    "sold": 413,
+    "isNew": false,
+    "createdAt": "2026-06-06T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-060",
+    "sku": "FS-MTS-010",
+    "slug": "photo-print-graphic-tee-black",
+    "name": "Photo Print Graphic Tee",
+    "gender": "men",
+    "category": "t-shirts",
+    "price": 24.9,
+    "compareAtPrice": 32.9,
+    "color": {
+      "name": "Black",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 17,
+      "M": 33,
+      "L": 0,
+      "XL": 19,
+      "XXL": 10
+    },
+    "image": {
+      "id": "314VZQb3G_8",
+      "focusY": 0.35
+    },
+    "description": "Heavyweight cotton, boxy fit and a print that does the talking.",
+    "features": [
+      "Dropped shoulders",
+      "Ribbed crew neck",
+      "Pre-shrunk cotton"
+    ],
+    "material": "100% Cotton, 240 GSM",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.9,
+    "reviewCount": 15,
+    "sold": 334,
+    "isNew": true,
+    "createdAt": "2026-09-20T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-061",
+    "sku": "FS-MSH-001",
+    "slug": "linen-band-collar-shirt-ecru",
+    "name": "Linen Band Collar Shirt",
+    "gender": "men",
+    "category": "shirts",
+    "price": 49.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Ecru",
+      "hex": "#EAE3D2"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 21,
+      "M": 20,
+      "L": 34,
+      "XL": 26,
+      "XXL": 31
+    },
+    "image": {
+      "id": "D_Y-BuWJvjw",
+      "focusY": 0.4
+    },
+    "description": "Sharp enough for the office, relaxed enough for weekend plans.",
+    "features": [
+      "Button-through front",
+      "Curved hem",
+      "Breathable fabric"
+    ],
+    "material": "100% Linen",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.56,
+    "reviewCount": 334,
+    "sold": 402,
+    "isNew": false,
+    "createdAt": "2026-07-20T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-062",
+    "sku": "FS-MSH-002",
+    "slug": "tropical-leaf-resort-shirt-sand-palm",
+    "name": "Tropical Leaf Resort Shirt",
+    "gender": "men",
+    "category": "shirts",
+    "price": 42.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Sand Palm",
+      "hex": "#C9B48C"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 27,
+      "M": 11,
+      "L": 8,
+      "XL": 39,
+      "XXL": 26
+    },
+    "image": {
+      "id": "5EKJ4vw1krE",
+      "focusY": 0.4
+    },
+    "description": "A modern shirt with a clean collar and a cut that flatters.",
+    "features": [
+      "Button-through front",
+      "Curved hem",
+      "Breathable fabric"
+    ],
+    "material": "100% Cotton",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.44,
+    "reviewCount": 346,
+    "sold": 271,
+    "isNew": false,
+    "createdAt": "2026-09-08T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-063",
+    "sku": "FS-MSH-003",
+    "slug": "lilac-knit-polo-shirt-lilac",
+    "name": "Lilac Knit Polo Shirt",
+    "gender": "men",
+    "category": "shirts",
+    "price": 36.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Lilac",
+      "hex": "#C8B6D6"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 29,
+      "M": 4,
+      "L": 6,
+      "XL": 34,
+      "XXL": 17
+    },
+    "image": {
+      "id": "acDOZXe5UtQ",
+      "focusY": 0.4
+    },
+    "description": "Breathable fabric made for Singapore heat — stay cool, look crisp.",
+    "features": [
+      "Button-through front",
+      "Curved hem",
+      "Breathable fabric"
+    ],
+    "material": "100% Cotton knit",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.36,
+    "reviewCount": 282,
+    "sold": 91,
+    "isNew": false,
+    "createdAt": "2026-09-18T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-064",
+    "sku": "FS-MSH-004",
+    "slug": "classic-plaid-oxford-shirt-blue-plaid",
+    "name": "Classic Plaid Oxford Shirt",
+    "gender": "men",
+    "category": "shirts",
+    "price": 44.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Blue Plaid",
+      "hex": "#8FA3C0"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 26,
+      "M": 22,
+      "L": 38,
+      "XL": 19,
+      "XXL": 36
+    },
+    "image": {
+      "id": "h0cztHfsLOk",
+      "focusY": 0.4
+    },
+    "description": "Sharp enough for the office, relaxed enough for weekend plans.",
+    "features": [
+      "Button-through front",
+      "Curved hem",
+      "Breathable fabric"
+    ],
+    "material": "100% Cotton",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.91,
+    "reviewCount": 207,
+    "sold": 233,
+    "isNew": false,
+    "createdAt": "2026-07-30T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-065",
+    "sku": "FS-MSH-005",
+    "slug": "striped-relaxed-fit-shirt-blue-stripe",
+    "name": "Striped Relaxed Fit Shirt",
+    "gender": "men",
+    "category": "shirts",
+    "price": 44.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Blue Stripe",
+      "hex": "#6F86B8"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 0,
+      "M": 31,
+      "L": 14,
+      "XL": 34,
+      "XXL": 31
+    },
+    "image": {
+      "id": "bGg3BbYfNBY",
+      "focusY": 0.4
+    },
+    "description": "A modern shirt with a clean collar and a cut that flatters.",
+    "features": [
+      "Button-through front",
+      "Curved hem",
+      "Breathable fabric"
+    ],
+    "material": "100% Cotton",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.95,
+    "reviewCount": 215,
+    "sold": 348,
+    "isNew": true,
+    "createdAt": "2026-10-01T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-066",
+    "sku": "FS-MSH-006",
+    "slug": "crisp-white-poplin-shirt-white",
+    "name": "Crisp White Poplin Shirt",
+    "gender": "men",
+    "category": "shirts",
+    "price": 39.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "White",
+      "hex": "#F7F7F5"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 33,
+      "M": 10,
+      "L": 25,
+      "XL": 5,
+      "XXL": 19
+    },
+    "image": {
+      "id": "Ll6ggwPpKIo",
+      "focusY": 0.4
+    },
+    "description": "Breathable fabric made for Singapore heat — stay cool, look crisp.",
+    "features": [
+      "Button-through front",
+      "Curved hem",
+      "Breathable fabric"
+    ],
+    "material": "100% Cotton",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.37,
+    "reviewCount": 204,
+    "sold": 96,
+    "isNew": false,
+    "createdAt": "2026-07-28T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-067",
+    "sku": "FS-MSH-007",
+    "slug": "sky-blue-oxford-shirt-sky-blue",
+    "name": "Sky Blue Oxford Shirt",
+    "gender": "men",
+    "category": "shirts",
+    "price": 39.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Sky Blue",
+      "hex": "#A8C2E0"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 12,
+      "M": 4,
+      "L": 14,
+      "XL": 13,
+      "XXL": 22
+    },
+    "image": {
+      "id": "F3um9jkcCZY",
+      "focusY": 0.4
+    },
+    "description": "Sharp enough for the office, relaxed enough for weekend plans.",
+    "features": [
+      "Button-through front",
+      "Curved hem",
+      "Breathable fabric"
+    ],
+    "material": "100% Cotton",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.55,
+    "reviewCount": 206,
+    "sold": 839,
+    "isNew": false,
+    "createdAt": "2026-07-30T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-068",
+    "sku": "FS-MSH-008",
+    "slug": "bold-stripe-camp-collar-shirt-red-stripe",
+    "name": "Bold Stripe Camp Collar Shirt",
+    "gender": "men",
+    "category": "shirts",
+    "price": 36.9,
+    "compareAtPrice": 46.9,
+    "color": {
+      "name": "Red Stripe",
+      "hex": "#8E1F27"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 22,
+      "M": 19,
+      "L": 36,
+      "XL": 25,
+      "XXL": 6
+    },
+    "image": {
+      "id": "u3WdX52t-UI",
+      "focusY": 0.4
+    },
+    "description": "A modern shirt with a clean collar and a cut that flatters.",
+    "features": [
+      "Button-through front",
+      "Curved hem",
+      "Breathable fabric"
+    ],
+    "material": "100% Cotton",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.89,
+    "reviewCount": 105,
+    "sold": 148,
+    "isNew": false,
+    "createdAt": "2026-07-18T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-069",
+    "sku": "FS-MSH-009",
+    "slug": "slim-fit-stretch-shirt-black",
+    "name": "Slim Fit Stretch Shirt",
+    "gender": "men",
+    "category": "shirts",
+    "price": 42.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Black",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 0,
+      "M": 2,
+      "L": 3,
+      "XL": 3,
+      "XXL": 3
+    },
+    "image": {
+      "id": "j88fRoQ92PQ",
+      "focusY": 0.4
+    },
+    "description": "Breathable fabric made for Singapore heat — stay cool, look crisp.",
+    "features": [
+      "Button-through front",
+      "Curved hem",
+      "Breathable fabric"
+    ],
+    "material": "100% Cotton",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.25,
+    "reviewCount": 123,
+    "sold": 438,
+    "isNew": false,
+    "createdAt": "2026-08-01T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-070",
+    "sku": "FS-MSH-010",
+    "slug": "leopard-print-camp-shirt-leopard",
+    "name": "Leopard Print Camp Shirt",
+    "gender": "men",
+    "category": "shirts",
+    "price": 38.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Leopard",
+      "hex": "#8A6A43"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 39,
+      "M": 38,
+      "L": 29,
+      "XL": 17,
+      "XXL": 40
+    },
+    "image": {
+      "id": "vKnRYW-mtek",
+      "focusY": 0.4
+    },
+    "description": "Sharp enough for the office, relaxed enough for weekend plans.",
+    "features": [
+      "Button-through front",
+      "Curved hem",
+      "Breathable fabric"
+    ],
+    "material": "100% Cotton",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.7,
+    "reviewCount": 223,
+    "sold": 49,
+    "isNew": false,
+    "createdAt": "2026-08-29T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-071",
+    "sku": "FS-MHD-001",
+    "slug": "essential-heavyweight-hoodie-ash-grey",
+    "name": "Essential Heavyweight Hoodie",
+    "gender": "men",
+    "category": "hoodies",
+    "price": 49.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Ash Grey",
+      "hex": "#D5D5D2"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 38,
+      "M": 12,
+      "L": 23,
+      "XL": 0,
+      "XXL": 39
+    },
+    "image": {
+      "id": "VoP2WK9rTa4",
+      "focusY": 0.4
+    },
+    "description": "Cosy, oversized and impossibly soft — the hoodie you'll steal back from everyone.",
+    "features": [
+      "Brushed fleece lining",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem"
+    ],
+    "material": "80% Cotton, 20% Polyester fleece",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.18,
+    "reviewCount": 366,
+    "sold": 467,
+    "isNew": true,
+    "createdAt": "2026-10-06T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-072",
+    "sku": "FS-MHD-002",
+    "slug": "oatmeal-relaxed-hoodie-oatmeal",
+    "name": "Oatmeal Relaxed Hoodie",
+    "gender": "men",
+    "category": "hoodies",
+    "price": 49.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Oatmeal",
+      "hex": "#CDBFAE"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 6,
+      "M": 15,
+      "L": 39,
+      "XL": 13,
+      "XXL": 0
+    },
+    "image": {
+      "id": "ZCoqcrWp9GY",
+      "focusY": 0.4
+    },
+    "description": "Brushed fleece inside, clean finish outside. Comfort levels: maximum.",
+    "features": [
+      "Brushed fleece lining",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem"
+    ],
+    "material": "80% Cotton, 20% Polyester fleece",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.33,
+    "reviewCount": 116,
+    "sold": 512,
+    "isNew": false,
+    "createdAt": "2026-07-02T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-073",
+    "sku": "FS-MHD-003",
+    "slug": "charcoal-fleece-hoodie-charcoal",
+    "name": "Charcoal Fleece Hoodie",
+    "gender": "men",
+    "category": "hoodies",
+    "price": 46.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Charcoal",
+      "hex": "#3A3D42"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 24,
+      "M": 7,
+      "L": 27,
+      "XL": 21,
+      "XXL": 26
+    },
+    "image": {
+      "id": "KMwpYURfx6E",
+      "focusY": 0.4
+    },
+    "description": "A heavyweight staple built for chilly air-con offices and late-night drives.",
+    "features": [
+      "Brushed fleece lining",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem"
+    ],
+    "material": "80% Cotton, 20% Polyester fleece",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.38,
+    "reviewCount": 207,
+    "sold": 249,
+    "isNew": false,
+    "createdAt": "2026-08-13T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-074",
+    "sku": "FS-MHD-004",
+    "slug": "chalk-pullover-hoodie-chalk",
+    "name": "Chalk Pullover Hoodie",
+    "gender": "men",
+    "category": "hoodies",
+    "price": 46.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Chalk",
+      "hex": "#F2F0EB"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 2,
+      "M": 3,
+      "L": 1,
+      "XL": 3,
+      "XXL": 2
+    },
+    "image": {
+      "id": "oYSHFpUDCIU",
+      "focusY": 0.4
+    },
+    "description": "Cosy, oversized and impossibly soft — the hoodie you'll steal back from everyone.",
+    "features": [
+      "Brushed fleece lining",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem"
+    ],
+    "material": "80% Cotton, 20% Polyester fleece",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.68,
+    "reviewCount": 279,
+    "sold": 659,
+    "isNew": false,
+    "createdAt": "2026-05-20T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-075",
+    "sku": "FS-MHD-005",
+    "slug": "pine-green-oversized-hoodie-pine",
+    "name": "Pine Green Oversized Hoodie",
+    "gender": "men",
+    "category": "hoodies",
+    "price": 49.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Pine",
+      "hex": "#1F3B33"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 32,
+      "M": 30,
+      "L": 4,
+      "XL": 12,
+      "XXL": 24
+    },
+    "image": {
+      "id": "D86EPYMO6iE",
+      "focusY": 0.4
+    },
+    "description": "Brushed fleece inside, clean finish outside. Comfort levels: maximum.",
+    "features": [
+      "Brushed fleece lining",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem"
+    ],
+    "material": "80% Cotton, 20% Polyester fleece",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.52,
+    "reviewCount": 214,
+    "sold": 257,
+    "isNew": false,
+    "createdAt": "2026-05-12T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-076",
+    "sku": "FS-MHD-006",
+    "slug": "slogan-print-hoodie-burnt-orange",
+    "name": "Slogan Print Hoodie",
+    "gender": "men",
+    "category": "hoodies",
+    "price": 44.9,
+    "compareAtPrice": 56.9,
+    "color": {
+      "name": "Burnt Orange",
+      "hex": "#E0702B"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 20,
+      "M": 26,
+      "L": 22,
+      "XL": 36,
+      "XXL": 36
+    },
+    "image": {
+      "id": "HbY4XIMKxus",
+      "focusY": 0.4
+    },
+    "description": "A heavyweight staple built for chilly air-con offices and late-night drives.",
+    "features": [
+      "Brushed fleece lining",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem"
+    ],
+    "material": "80% Cotton, 20% Polyester fleece",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.31,
+    "reviewCount": 26,
+    "sold": 320,
+    "isNew": true,
+    "createdAt": "2026-09-26T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-077",
+    "sku": "FS-MHD-007",
+    "slug": "wake-graphic-hoodie-cornflower",
+    "name": "Wake Graphic Hoodie",
+    "gender": "men",
+    "category": "hoodies",
+    "price": 52.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Cornflower",
+      "hex": "#6F8FE0"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 0,
+      "M": 25,
+      "L": 17,
+      "XL": 20,
+      "XXL": 40
+    },
+    "image": {
+      "id": "g51Czpqv8yo",
+      "focusY": 0.4
+    },
+    "description": "Cosy, oversized and impossibly soft — the hoodie you'll steal back from everyone.",
+    "features": [
+      "Brushed fleece lining",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem"
+    ],
+    "material": "80% Cotton, 20% Polyester fleece",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.51,
+    "reviewCount": 124,
+    "sold": 450,
+    "isNew": true,
+    "createdAt": "2026-09-25T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-078",
+    "sku": "FS-MHD-008",
+    "slug": "dusty-pink-hoodie-dusty-pink",
+    "name": "Dusty Pink Hoodie",
+    "gender": "men",
+    "category": "hoodies",
+    "price": 44.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Dusty Pink",
+      "hex": "#E3AFB3"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 31,
+      "M": 32,
+      "L": 27,
+      "XL": 36,
+      "XXL": 33
+    },
+    "image": {
+      "id": "DHt3xoDHGEs",
+      "focusY": 0.4
+    },
+    "description": "Brushed fleece inside, clean finish outside. Comfort levels: maximum.",
+    "features": [
+      "Brushed fleece lining",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem"
+    ],
+    "material": "80% Cotton, 20% Polyester fleece",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.27,
+    "reviewCount": 265,
+    "sold": 286,
+    "isNew": false,
+    "createdAt": "2026-08-30T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-079",
+    "sku": "FS-MHD-009",
+    "slug": "sherpa-fleece-hoodie-navy",
+    "name": "Sherpa Fleece Hoodie",
+    "gender": "men",
+    "category": "hoodies",
+    "price": 59.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Navy",
+      "hex": "#1D2233"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 30,
+      "M": 16,
+      "L": 24,
+      "XL": 4,
+      "XXL": 4
+    },
+    "image": {
+      "id": "D6JVv1YnKdQ",
+      "focusY": 0.4
+    },
+    "description": "A heavyweight staple built for chilly air-con offices and late-night drives.",
+    "features": [
+      "Brushed fleece lining",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem"
+    ],
+    "material": "80% Cotton, 20% Polyester fleece",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.7,
+    "reviewCount": 113,
+    "sold": 731,
+    "isNew": false,
+    "createdAt": "2026-07-06T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-080",
+    "sku": "FS-MHD-010",
+    "slug": "signature-script-hoodie-white",
+    "name": "Signature Script Hoodie",
+    "gender": "men",
+    "category": "hoodies",
+    "price": 52.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "White",
+      "hex": "#F7F7F5"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 17,
+      "M": 34,
+      "L": 39,
+      "XL": 24,
+      "XXL": 21
+    },
+    "image": {
+      "id": "AGwMgxZs1L0",
+      "focusY": 0.4
+    },
+    "description": "Cosy, oversized and impossibly soft — the hoodie you'll steal back from everyone.",
+    "features": [
+      "Brushed fleece lining",
+      "Kangaroo pocket",
+      "Ribbed cuffs and hem"
+    ],
+    "material": "80% Cotton, 20% Polyester fleece",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.76,
+    "reviewCount": 319,
+    "sold": 869,
+    "isNew": false,
+    "createdAt": "2026-06-08T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-081",
+    "sku": "FS-MPT-001",
+    "slug": "stretch-cuffed-chino-joggers-khaki",
+    "name": "Stretch Cuffed Chino Joggers",
+    "gender": "men",
+    "category": "pants",
+    "price": 44.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Khaki",
+      "hex": "#B49B74"
+    },
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "stock": {
+      "28": 18,
+      "30": 16,
+      "32": 9,
+      "34": 0,
+      "36": 7
+    },
+    "image": {
+      "id": "jC7nVH_Sw8k",
+      "focusY": 0.7
+    },
+    "description": "Tailored comfort with a modern tapered leg.",
+    "features": [
+      "Belt loops",
+      "Side and back pockets",
+      "Zip fly with button closure"
+    ],
+    "material": "97% Cotton, 3% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.37,
+    "reviewCount": 207,
+    "sold": 699,
+    "isNew": false,
+    "createdAt": "2026-08-11T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-082",
+    "sku": "FS-MPT-002",
+    "slug": "cropped-tapered-trousers-black",
+    "name": "Cropped Tapered Trousers",
+    "gender": "men",
+    "category": "pants",
+    "price": 49.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Black",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "stock": {
+      "28": 20,
+      "30": 0,
+      "32": 11,
+      "34": 29,
+      "36": 34
+    },
+    "image": {
+      "id": "ylHcWlrMlzs",
+      "focusY": 0.7
+    },
+    "description": "The versatile pant that takes you from desk to dinner without missing a beat.",
+    "features": [
+      "Belt loops",
+      "Side and back pockets",
+      "Zip fly with button closure"
+    ],
+    "material": "97% Cotton, 3% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.3,
+    "reviewCount": 57,
+    "sold": 392,
+    "isNew": false,
+    "createdAt": "2026-05-28T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-083",
+    "sku": "FS-MPT-003",
+    "slug": "slim-fit-white-chinos-white",
+    "name": "Slim Fit White Chinos",
+    "gender": "men",
+    "category": "pants",
+    "price": 46.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "White",
+      "hex": "#F7F7F5"
+    },
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "stock": {
+      "28": 20,
+      "30": 10,
+      "32": 37,
+      "34": 32,
+      "36": 5
+    },
+    "image": {
+      "id": "cp4ucXlnhYw",
+      "focusY": 0.7
+    },
+    "description": "Stretch fabric, sharp silhouette and all-day comfort.",
+    "features": [
+      "Belt loops",
+      "Side and back pockets",
+      "Zip fly with button closure"
+    ],
+    "material": "97% Cotton, 3% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.94,
+    "reviewCount": 351,
+    "sold": 598,
+    "isNew": true,
+    "createdAt": "2026-10-03T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-084",
+    "sku": "FS-MPT-004",
+    "slug": "relaxed-linen-drawstring-pants-stone",
+    "name": "Relaxed Linen Drawstring Pants",
+    "gender": "men",
+    "category": "pants",
+    "price": 52.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Stone",
+      "hex": "#CFC7B5"
+    },
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "stock": {
+      "28": 28,
+      "30": 15,
+      "32": 20,
+      "34": 14,
+      "36": 20
+    },
+    "image": {
+      "id": "Q1oEbLdBP4g",
+      "focusY": 0.7
+    },
+    "description": "Tailored comfort with a modern tapered leg.",
+    "features": [
+      "Belt loops",
+      "Side and back pockets",
+      "Zip fly with button closure"
+    ],
+    "material": "55% Linen, 45% Cotton",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.47,
+    "reviewCount": 251,
+    "sold": 571,
+    "isNew": false,
+    "createdAt": "2026-05-19T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-085",
+    "sku": "FS-MPT-005",
+    "slug": "ripped-skinny-jeans-black",
+    "name": "Ripped Skinny Jeans",
+    "gender": "men",
+    "category": "pants",
+    "price": 54.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Black",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "stock": {
+      "28": 34,
+      "30": 12,
+      "32": 27,
+      "34": 21,
+      "36": 0
+    },
+    "image": {
+      "id": "OenHGpOnsv0",
+      "focusY": 0.7
+    },
+    "description": "The versatile pant that takes you from desk to dinner without missing a beat.",
+    "features": [
+      "Belt loops",
+      "Side and back pockets",
+      "Zip fly with button closure"
+    ],
+    "material": "97% Cotton, 3% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.88,
+    "reviewCount": 315,
+    "sold": 394,
+    "isNew": true,
+    "createdAt": "2026-09-21T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-086",
+    "sku": "FS-MPT-006",
+    "slug": "tech-jogger-pants-black",
+    "name": "Tech Jogger Pants",
+    "gender": "men",
+    "category": "pants",
+    "price": 42.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Black",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "stock": {
+      "28": 11,
+      "30": 15,
+      "32": 40,
+      "34": 4,
+      "36": 29
+    },
+    "image": {
+      "id": "iun3EnrZKxI",
+      "focusY": 0.7
+    },
+    "description": "Stretch fabric, sharp silhouette and all-day comfort.",
+    "features": [
+      "Belt loops",
+      "Side and back pockets",
+      "Zip fly with button closure"
+    ],
+    "material": "97% Cotton, 3% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.86,
+    "reviewCount": 228,
+    "sold": 743,
+    "isNew": false,
+    "createdAt": "2026-09-03T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-087",
+    "sku": "FS-MPT-007",
+    "slug": "cream-straight-leg-chinos-cream",
+    "name": "Cream Straight Leg Chinos",
+    "gender": "men",
+    "category": "pants",
+    "price": 46.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Cream",
+      "hex": "#E8E1D0"
+    },
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "stock": {
+      "28": 19,
+      "30": 33,
+      "32": 40,
+      "34": 38,
+      "36": 38
+    },
+    "image": {
+      "id": "7HWyBKvcQ8g",
+      "focusY": 0.7
+    },
+    "description": "Tailored comfort with a modern tapered leg.",
+    "features": [
+      "Belt loops",
+      "Side and back pockets",
+      "Zip fly with button closure"
+    ],
+    "material": "97% Cotton, 3% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.75,
+    "reviewCount": 13,
+    "sold": 629,
+    "isNew": false,
+    "createdAt": "2026-06-28T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-088",
+    "sku": "FS-MPT-008",
+    "slug": "slim-dress-trousers-black",
+    "name": "Slim Dress Trousers",
+    "gender": "men",
+    "category": "pants",
+    "price": 54.9,
+    "compareAtPrice": 69.9,
+    "color": {
+      "name": "Black",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "stock": {
+      "28": 0,
+      "30": 39,
+      "32": 18,
+      "34": 28,
+      "36": 22
+    },
+    "image": {
+      "id": "N_dEi1iG69s",
+      "focusY": 0.7
+    },
+    "description": "The versatile pant that takes you from desk to dinner without missing a beat.",
+    "features": [
+      "Belt loops",
+      "Side and back pockets",
+      "Zip fly with button closure"
+    ],
+    "material": "97% Cotton, 3% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.43,
+    "reviewCount": 38,
+    "sold": 349,
+    "isNew": false,
+    "createdAt": "2026-07-22T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-089",
+    "sku": "FS-MPT-009",
+    "slug": "pleated-wide-leg-trousers-charcoal",
+    "name": "Pleated Wide Leg Trousers",
+    "gender": "men",
+    "category": "pants",
+    "price": 59.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Charcoal",
+      "hex": "#2F2F2F"
+    },
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "stock": {
+      "28": 0,
+      "30": 3,
+      "32": 2,
+      "34": 1,
+      "36": 3
+    },
+    "image": {
+      "id": "zJBQr0bajIA",
+      "focusY": 0.7
+    },
+    "description": "Stretch fabric, sharp silhouette and all-day comfort.",
+    "features": [
+      "Belt loops",
+      "Side and back pockets",
+      "Zip fly with button closure"
+    ],
+    "material": "97% Cotton, 3% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.91,
+    "reviewCount": 234,
+    "sold": 471,
+    "isNew": true,
+    "createdAt": "2026-10-02T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-090",
+    "sku": "FS-MPT-010",
+    "slug": "slim-tapered-jeans-washed-black",
+    "name": "Slim Tapered Jeans",
+    "gender": "men",
+    "category": "pants",
+    "price": 49.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Washed Black",
+      "hex": "#2B2B2E"
+    },
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "stock": {
+      "28": 22,
+      "30": 25,
+      "32": 0,
+      "34": 22,
+      "36": 17
+    },
+    "image": {
+      "id": "YP9DYK6j5cM",
+      "focusY": 0.7
+    },
+    "description": "Tailored comfort with a modern tapered leg.",
+    "features": [
+      "Belt loops",
+      "Side and back pockets",
+      "Zip fly with button closure"
+    ],
+    "material": "97% Cotton, 3% Elastane",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.14,
+    "reviewCount": 278,
+    "sold": 120,
+    "isNew": false,
+    "createdAt": "2026-09-19T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-091",
+    "sku": "FS-MJK-001",
+    "slug": "classic-trucker-denim-jacket-mid-wash",
+    "name": "Classic Trucker Denim Jacket",
+    "gender": "men",
+    "category": "jackets",
+    "price": 79.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Mid Wash",
+      "hex": "#3F6E9C"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 37,
+      "M": 13,
+      "L": 17,
+      "XL": 20,
+      "XXL": 11
+    },
+    "image": {
+      "id": "1QOsJGbNIgk",
+      "focusY": 0.4
+    },
+    "description": "The finishing layer that instantly elevates jeans and a tee.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "100% Cotton denim",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.7,
+    "reviewCount": 233,
+    "sold": 674,
+    "isNew": false,
+    "createdAt": "2026-08-28T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-092",
+    "sku": "FS-MJK-002",
+    "slug": "varsity-bomber-jacket-brown",
+    "name": "Varsity Bomber Jacket",
+    "gender": "men",
+    "category": "jackets",
+    "price": 119.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Brown",
+      "hex": "#5A3A26"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 17,
+      "M": 37,
+      "L": 24,
+      "XL": 32,
+      "XXL": 29
+    },
+    "image": {
+      "id": "C8wkDP4tnP0",
+      "focusY": 0.4
+    },
+    "description": "Structured, statement-making and built to last season after season.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "Shell: 100% Polyester. Lining: 100% Polyester",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.18,
+    "reviewCount": 67,
+    "sold": 744,
+    "isNew": false,
+    "createdAt": "2026-06-24T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-093",
+    "sku": "FS-MJK-003",
+    "slug": "colour-block-puffer-jacket-orange",
+    "name": "Colour Block Puffer Jacket",
+    "gender": "men",
+    "category": "jackets",
+    "price": 129.9,
+    "compareAtPrice": 159.9,
+    "color": {
+      "name": "Orange",
+      "hex": "#E8732C"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 33,
+      "M": 37,
+      "L": 22,
+      "XL": 10,
+      "XXL": 5
+    },
+    "image": {
+      "id": "rXKGz1dZgDM",
+      "focusY": 0.4
+    },
+    "description": "Throw it on and you're done — outerwear with serious style credentials.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "Shell: 100% Polyester. Lining: 100% Polyester",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.78,
+    "reviewCount": 20,
+    "sold": 746,
+    "isNew": true,
+    "createdAt": "2026-10-01T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-094",
+    "sku": "FS-MJK-004",
+    "slug": "leather-racer-jacket-brown",
+    "name": "Leather Racer Jacket",
+    "gender": "men",
+    "category": "jackets",
+    "price": 149.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Brown",
+      "hex": "#5C3B28"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 0,
+      "M": 7,
+      "L": 16,
+      "XL": 36,
+      "XXL": 7
+    },
+    "image": {
+      "id": "CPztBtp6rQg",
+      "focusY": 0.4
+    },
+    "description": "The finishing layer that instantly elevates jeans and a tee.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "100% Lambskin leather",
+    "care": [
+      "Professional leather clean only",
+      "Store on a padded hanger",
+      "Keep away from direct heat"
+    ],
+    "rating": 4.81,
+    "reviewCount": 103,
+    "sold": 247,
+    "isNew": false,
+    "createdAt": "2026-08-23T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-095",
+    "sku": "FS-MJK-005",
+    "slug": "shearling-collar-aviator-jacket-tan",
+    "name": "Shearling Collar Aviator Jacket",
+    "gender": "men",
+    "category": "jackets",
+    "price": 139.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Tan",
+      "hex": "#8A5A3A"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 32,
+      "M": 0,
+      "L": 37,
+      "XL": 27,
+      "XXL": 24
+    },
+    "image": {
+      "id": "2cmLR_I_hn0",
+      "focusY": 0.4
+    },
+    "description": "Structured, statement-making and built to last season after season.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "Shell: 100% Polyester. Lining: 100% Polyester",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.18,
+    "reviewCount": 216,
+    "sold": 504,
+    "isNew": true,
+    "createdAt": "2026-09-22T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-096",
+    "sku": "FS-MJK-006",
+    "slug": "canvas-workwear-jacket-tan",
+    "name": "Canvas Workwear Jacket",
+    "gender": "men",
+    "category": "jackets",
+    "price": 89.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Tan",
+      "hex": "#B59A6E"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 40,
+      "M": 29,
+      "L": 32,
+      "XL": 13,
+      "XXL": 18
+    },
+    "image": {
+      "id": "7LUqBD0LW90",
+      "focusY": 0.4
+    },
+    "description": "Throw it on and you're done — outerwear with serious style credentials.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "Shell: 100% Polyester. Lining: 100% Polyester",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.54,
+    "reviewCount": 69,
+    "sold": 201,
+    "isNew": false,
+    "createdAt": "2026-09-01T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-097",
+    "sku": "FS-MJK-007",
+    "slug": "black-leather-biker-jacket-black",
+    "name": "Black Leather Biker Jacket",
+    "gender": "men",
+    "category": "jackets",
+    "price": 149.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Black",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 0,
+      "M": 35,
+      "L": 0,
+      "XL": 28,
+      "XXL": 16
+    },
+    "image": {
+      "id": "Et0T2HVNzf0",
+      "focusY": 0.4
+    },
+    "description": "The finishing layer that instantly elevates jeans and a tee.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "100% Lambskin leather",
+    "care": [
+      "Professional leather clean only",
+      "Store on a padded hanger",
+      "Keep away from direct heat"
+    ],
+    "rating": 4.85,
+    "reviewCount": 68,
+    "sold": 892,
+    "isNew": true,
+    "createdAt": "2026-09-24T00:00:00.000Z",
+    "isBestseller": true
+  },
+  {
+    "id": "fs-098",
+    "sku": "FS-MJK-008",
+    "slug": "gloss-puffer-jacket-black",
+    "name": "Gloss Puffer Jacket",
+    "gender": "men",
+    "category": "jackets",
+    "price": 119.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Black",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 40,
+      "M": 18,
+      "L": 37,
+      "XL": 34,
+      "XXL": 17
+    },
+    "image": {
+      "id": "LrzHcPuDspc",
+      "focusY": 0.4
+    },
+    "description": "Structured, statement-making and built to last season after season.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "Shell: 100% Polyester. Lining: 100% Polyester",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.68,
+    "reviewCount": 174,
+    "sold": 220,
+    "isNew": false,
+    "createdAt": "2026-09-10T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-099",
+    "sku": "FS-MJK-009",
+    "slug": "black-corduroy-trucker-jacket-black",
+    "name": "Black Corduroy Trucker Jacket",
+    "gender": "men",
+    "category": "jackets",
+    "price": 84.9,
+    "compareAtPrice": 99.9,
+    "color": {
+      "name": "Black",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 33,
+      "M": 9,
+      "L": 31,
+      "XL": 4,
+      "XXL": 4
+    },
+    "image": {
+      "id": "0nULZ2hmWpk",
+      "focusY": 0.4
+    },
+    "description": "Throw it on and you're done — outerwear with serious style credentials.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "100% Cotton corduroy",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.94,
+    "reviewCount": 68,
+    "sold": 469,
+    "isNew": true,
+    "createdAt": "2026-10-04T00:00:00.000Z",
+    "isBestseller": false
+  },
+  {
+    "id": "fs-100",
+    "sku": "FS-MJK-010",
+    "slug": "cropped-twill-overshirt-jacket-butter",
+    "name": "Cropped Twill Overshirt Jacket",
+    "gender": "men",
+    "category": "jackets",
+    "price": 74.9,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Butter",
+      "hex": "#E6D6A6"
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": {
+      "S": 11,
+      "M": 5,
+      "L": 31,
+      "XL": 30,
+      "XXL": 6
+    },
+    "image": {
+      "id": "nIs-xAS752k",
+      "focusY": 0.4
+    },
+    "description": "The finishing layer that instantly elevates jeans and a tee.",
+    "features": [
+      "Fully lined",
+      "Front pockets",
+      "Relaxed fit for easy layering"
+    ],
+    "material": "Shell: 100% Polyester. Lining: 100% Polyester",
+    "care": [
+      "Machine wash cold, inside out",
+      "Do not bleach",
+      "Hang to dry",
+      "Cool iron if needed"
+    ],
+    "rating": 4.44,
+    "reviewCount": 105,
+    "sold": 480,
+    "isNew": false,
+    "createdAt": "2026-08-20T00:00:00.000Z",
+    "isBestseller": false
+  }
+]

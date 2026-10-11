@@ -39,7 +39,7 @@ export function CollectionView({ handle }: { handle: string }) {
     <div className="container-page pt-6 pb-20">
       <Breadcrumbs items={crumbs} />
       <header className="mt-6 mb-8 max-w-3xl">
-        <h1 className="heading-display text-4xl leading-none sm:text-5xl lg:text-6xl">
+        <h1 className="heading-display text-3xl leading-none sm:text-4xl lg:text-5xl">
           {collection.title}
         </h1>
         <p className="mt-3 text-sm text-ink/70 sm:text-base">{collection.description}</p>

@@ -66,7 +66,7 @@ export function WelcomePopup() {
             No thanks
           </button>
           <p className="eyebrow mt-6 text-accent">Welcome to Fashion Store</p>
-          <h2 className="heading-display mt-3 text-5xl leading-[0.9]">
+          <h2 className="heading-display mt-3 text-4xl leading-[0.92]">
             Take 10%
             <br />
             off

@@ -51,7 +51,7 @@ export function SizeFinder({ product, onSelect }: { product: Product; onSelect: 
           {result ? (
             <div className="text-center">
               <p className="eyebrow text-muted">We recommend</p>
-              <p className="mt-2 font-display text-7xl">{result}</p>
+              <p className="mt-2 font-display text-6xl">{result}</p>
               <p className="mx-auto mt-3 max-w-xs text-sm text-ink/70">
                 Based on {height} cm, {weight} kg and a {fit} fit.{" "}
                 {inStock ? "It's in stock — nice!" : "That size is sold out right now; you can ask to be notified."}

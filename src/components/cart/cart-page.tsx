@@ -35,7 +35,7 @@ export function CartPage() {
 
   return (
     <div className="container-page py-10 lg:py-14">
-      <h1 className="heading-display text-4xl lg:text-5xl">
+      <h1 className="heading-display text-3xl lg:text-4xl">
         Your bag <span className="text-muted">({count})</span>
       </h1>
       <div className="mt-8 grid gap-10 lg:grid-cols-[1fr_400px] lg:gap-14">

@@ -38,7 +38,7 @@ export function OrderConfirmation() {
         <div className="text-center">
           <CircleCheck className="mx-auto size-14 text-success" strokeWidth={1.5} />
           <p className="eyebrow mt-5 text-muted">Order #{order.number}</p>
-          <h1 className="heading-display mt-2 text-4xl sm:text-5xl">
+          <h1 className="heading-display mt-2 text-3xl sm:text-4xl">
             Thank you, {order.shippingAddress.firstName}!
           </h1>
           <p className="mx-auto mt-4 max-w-lg text-sm text-ink/75">

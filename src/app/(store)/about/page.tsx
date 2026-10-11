@@ -23,7 +23,7 @@ export default function AboutPage() {
         <Image src={photoUrl(banners.about)} alt="" fill priority sizes="100vw" className="object-cover opacity-50" />
         <div className="container-page relative py-24 text-center">
           <p className="eyebrow text-paper/80">Our story</p>
-          <h1 className="heading-display mx-auto mt-3 max-w-4xl text-5xl leading-[0.95] sm:text-7xl">
+          <h1 className="heading-display mx-auto mt-3 max-w-4xl text-4xl leading-[0.95] sm:text-5xl lg:text-6xl">
             Fashion that makes you feel like you
           </h1>
         </div>

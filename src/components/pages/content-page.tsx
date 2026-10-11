@@ -19,7 +19,7 @@ export function ContentPage({
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: title }]} />
       <header className="mx-auto mt-10 max-w-3xl text-center">
         {eyebrow && <p className="eyebrow text-accent">{eyebrow}</p>}
-        <h1 className="heading-display mt-2 text-4xl sm:text-5xl lg:text-6xl">{title}</h1>
+        <h1 className="heading-display mt-2 text-3xl sm:text-4xl lg:text-5xl">{title}</h1>
         {intro && <p className="mt-4 text-base text-ink/70">{intro}</p>}
       </header>
       <div

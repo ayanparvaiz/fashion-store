@@ -23,7 +23,7 @@ export function TrackOrder() {
       <div className="mx-auto max-w-4xl">
         <div className="mx-auto max-w-lg text-center">
           <PackageSearch className="mx-auto size-12" strokeWidth={1.4} />
-          <h1 className="heading-display mt-4 text-4xl sm:text-5xl">Track your order</h1>
+          <h1 className="heading-display mt-4 text-3xl sm:text-4xl">Track your order</h1>
           <p className="mt-3 text-sm text-muted">
             Enter your order number (e.g. FS10265) and the email or phone number you used at checkout.
           </p>

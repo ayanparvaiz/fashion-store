@@ -39,7 +39,7 @@ export function AccountPage() {
   if (!customer) {
     return (
       <div className="container-page py-14 lg:py-20">
-        <h1 className="heading-display mb-10 text-center text-4xl lg:text-5xl">My account</h1>
+        <h1 className="heading-display mb-10 text-center text-3xl lg:text-4xl">My account</h1>
         <AuthForms onSuccess={() => next?.startsWith("/") && router.push(next)} />
       </div>
     );
@@ -51,7 +51,7 @@ export function AccountPage() {
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
           <p className="eyebrow text-muted">My account</p>
-          <h1 className="heading-display mt-2 text-4xl lg:text-5xl">Hi, {customer.firstName}</h1>
+          <h1 className="heading-display mt-2 text-3xl lg:text-4xl">Hi, {customer.firstName}</h1>
         </div>
         <Button variant="outline" size="sm" onClick={logout}>
           <LogOut className="size-3.5" /> Sign out

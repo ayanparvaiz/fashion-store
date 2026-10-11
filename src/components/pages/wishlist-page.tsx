@@ -21,7 +21,7 @@ export function WishlistPage() {
 
   return (
     <div className="container-page py-10 lg:py-14">
-      <h1 className="heading-display text-4xl lg:text-5xl">
+      <h1 className="heading-display text-3xl lg:text-4xl">
         Wishlist {mounted && products.length > 0 && <span className="text-muted">({products.length})</span>}
       </h1>
       {!mounted ? (

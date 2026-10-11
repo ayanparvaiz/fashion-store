@@ -48,15 +48,30 @@ function statusForAge(ageDays: number, roll: number): OrderStatus {
 
 const FLOW: OrderStatus[] = ["pending", "confirmed", "shipped", "delivered"];
 
-/** Generates realistic-looking demo orders for the last 30 days. */
-export function generateDemoOrders(now = Date.now(), count = 64): Order[] {
+/**
+ * Generates realistic-looking demo orders for the last 30 days: a steady
+ * upward trend with weekend peaks and day-to-day noise.
+ */
+export function generateDemoOrders(now = Date.now()): Order[] {
   const rand = mulberry32(7);
   const pick = <T,>(list: readonly T[]) => list[Math.floor(rand() * list.length)];
   const orders: Order[] = [];
 
-  for (let i = 0; i < count; i++) {
-    // More orders in recent days so the trend line climbs.
-    const ageDays = Math.pow(rand(), 1.35) * 30;
+  const ages: number[] = [];
+  for (let day = 29; day >= 0; day--) {
+    const weekday = new Date(now - day * DAY).getDay();
+    const weekend = weekday === 0 || weekday === 6 ? 1.5 : 0;
+    const trend = 1.6 + ((29 - day) / 29) * 2.4;
+    const count = Math.max(1, Math.round(trend + weekend + (rand() - 0.5) * 2.2));
+    for (let n = 0; n < count; n++) {
+      // Today only has orders up to the current time.
+      const hours = day === 0 ? rand() * Math.min(22, new Date(now).getHours() + 1) : rand() * 24;
+      ages.push(day + hours / 24);
+    }
+  }
+
+  for (let i = 0; i < ages.length; i++) {
+    const ageDays = ages[i];
     const createdAt = now - ageDays * DAY;
     const [firstName, lastName, address, unit, postalCode] = pick(CUSTOMERS);
 
@@ -93,7 +108,7 @@ export function generateDemoOrders(now = Date.now(), count = 64): Order[] {
         at: new Date(Math.min(now, createdAt + idx * (idx === 1 ? 3 : 26) * HOUR)).toISOString(),
       })),
       email: `${firstName}.${lastName}`.toLowerCase().replace(/\s+/g, "") + "@example.com",
-      phone: `+65 ${pick(["8", "9"])}${String(Math.floor(rand() * 1e7)).padStart(7, "0")}`,
+      phone: `+65 ${pick(["8", "9"])}${String(Math.floor(rand() * 1e3)).padStart(3, "0")} ${String(Math.floor(rand() * 1e4)).padStart(4, "0")}`,
       shippingAddress: { firstName, lastName, address, unit, postalCode },
       shippingMethod: method,
       paymentMethod: "cod",

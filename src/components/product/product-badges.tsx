@@ -17,7 +17,7 @@ export function ProductBadges({ product, className }: { product: Product; classN
           {off > 0 && <span className={cn(base, "bg-accent text-paper")}>-{off}%</span>}
           {product.isNew && <span className={cn(base, "bg-ink text-paper")}>New</span>}
           {product.isBestseller && !product.isNew && (
-            <span className={cn(base, "bg-paper text-ink")}>Bestseller</span>
+            <span className={cn(base, "bg-paper text-ink ring-1 ring-ink/15")}>Bestseller</span>
           )}
         </>
       )}

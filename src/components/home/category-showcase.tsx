@@ -64,11 +64,11 @@ export function CategoryShowcase() {
                 href={categoryHref(row.gender, row.category)}
                 onPointerEnter={() => setActive(i)}
                 data-cursor="view"
-                className="group relative z-10 grid grid-cols-[2rem_1fr_auto] items-center gap-3 border-b border-ink/15 py-4 sm:grid-cols-[3rem_1fr_auto] lg:py-6"
+                className="group relative z-10 grid grid-cols-[2rem_1fr_auto] items-center gap-3 border-b border-ink/15 py-3.5 sm:grid-cols-[3rem_1fr_auto] lg:py-4"
               >
                 <span className="text-xs text-muted tabular-nums">{String(i + 1).padStart(2, "0")}</span>
                 <span className="flex flex-wrap items-baseline gap-x-4">
-                  <span className="font-display text-3xl uppercase transition-[transform,color] duration-500 ease-out group-hover:translate-x-3 group-hover:text-accent sm:text-5xl lg:text-7xl">
+                  <span className="font-display text-xl uppercase transition-[transform,color] duration-500 ease-out group-hover:translate-x-2 group-hover:text-accent sm:text-2xl lg:text-3xl">
                     {row.label ?? CATEGORIES[row.category].label}
                   </span>
                   <span className="text-[11px] font-semibold tracking-[0.2em] text-muted uppercase">
@@ -76,11 +76,11 @@ export function CategoryShowcase() {
                   </span>
                 </span>
                 <span className="flex items-center gap-3">
-                  <span className="relative size-14 overflow-hidden rounded-full bg-soft lg:hidden">
-                    <Image src={row.image} alt="" fill sizes="56px" className="object-cover" />
+                  <span className="relative size-11 overflow-hidden rounded-full bg-soft lg:hidden">
+                    <Image src={row.image} alt="" fill sizes="44px" className="object-cover" />
                   </span>
                   <span className="hidden text-sm text-muted sm:inline">{row.count} styles</span>
-                  <ArrowUpRight className="size-5 transition-transform duration-500 group-hover:rotate-45 lg:size-7" />
+                  <ArrowUpRight className="size-5 transition-transform duration-500 group-hover:rotate-45" />
                 </span>
               </Link>
             </li>
@@ -103,11 +103,11 @@ export function CategoryShowcase() {
               <div
                 key={row.category + row.gender}
                 className={cn(
-                  "absolute top-0 left-0 h-[22rem] w-[17rem] -translate-x-1/2 -translate-y-1/2 overflow-hidden transition-[clip-path] duration-700 ease-[cubic-bezier(.7,0,.2,1)]",
+                  "absolute top-0 left-0 h-72 w-56 -translate-x-1/2 -translate-y-1/2 overflow-hidden transition-[clip-path] duration-700 ease-[cubic-bezier(.7,0,.2,1)]",
                   active === i ? "[clip-path:inset(0%)]" : "[clip-path:inset(100%_0%_0%_0%)]",
                 )}
               >
-                <Image src={row.image} alt="" fill sizes="272px" className="object-cover" />
+                <Image src={row.image} alt="" fill sizes="224px" className="object-cover" />
               </div>
             ))}
           </div>

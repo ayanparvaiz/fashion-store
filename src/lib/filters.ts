@@ -3,15 +3,15 @@ import type { CategorySlug, Product } from "./types";
 export const COLOR_FAMILIES = [
   { name: "Black", hex: "#111111", match: ["black", "charcoal"] },
   { name: "White", hex: "#ffffff", match: ["white", "chalk", "ecru"] },
-  { name: "Neutral", hex: "#d9c8ad", match: ["cream", "beige", "oatmeal", "stone", "sand", "khaki", "butter", "tan"] },
+  { name: "Neutral", hex: "#d9c8ad", match: ["cream", "beige", "oatmeal", "stone", "sand", "khaki", "butter", "tan", "camel"] },
   { name: "Grey", hex: "#9ca3af", match: ["grey", "gray"] },
   { name: "Blue", hex: "#3b5b8f", match: ["blue", "wash", "navy", "cornflower"] },
-  { name: "Red", hex: "#c8202e", match: ["red", "cherry", "scarlet"] },
+  { name: "Red", hex: "#c8202e", match: ["red", "cherry", "scarlet", "burgundy"] },
   { name: "Pink", hex: "#e8a3b5", match: ["pink", "blush"] },
-  { name: "Purple", hex: "#a58fd3", match: ["lilac", "lavender"] },
-  { name: "Green", hex: "#4b6b4f", match: ["sage", "emerald", "forest", "olive", "pine"] },
-  { name: "Brown", hex: "#6b4a33", match: ["brown", "espresso", "leopard", "rust", "terracotta"] },
-  { name: "Orange & Yellow", hex: "#e8892c", match: ["orange", "mustard"] },
+  { name: "Purple", hex: "#a58fd3", match: ["lilac", "lavender", "purple"] },
+  { name: "Green", hex: "#4b6b4f", match: ["sage", "emerald", "forest", "olive", "pine", "mint", "teal"] },
+  { name: "Brown", hex: "#6b4a33", match: ["brown", "espresso", "leopard", "rust", "terracotta", "chocolate"] },
+  { name: "Orange & Yellow", hex: "#e8892c", match: ["orange", "mustard", "yellow"] },
 ] as const;
 
 export type ColorFamily = (typeof COLOR_FAMILIES)[number]["name"];

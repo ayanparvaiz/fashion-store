@@ -4,12 +4,18 @@ import type { CategorySlug, Product } from "./types";
 const SYNONYMS: Record<CategorySlug, string> = {
   dresses: "dress frock",
   tops: "top crop cami tank blouse",
+  skirts: "skirt",
   jeans: "denim jean",
-  hoodies: "hoodie sweatshirt fleece",
-  jackets: "jacket coat outerwear blazer",
+  shorts: "short",
+  hoodies: "hoodie sweatshirt sweat fleece",
+  knitwear: "knit knitwear sweater jumper cardigan",
+  "denim-jackets": "denim jacket jean outerwear trucker",
+  jackets: "jacket coat outerwear blazer bomber puffer",
+  activewear: "activewear gym sport leggings workout",
   "t-shirts": "tee tshirt t-shirt graphic",
-  shirts: "shirt button-up polo",
-  pants: "pant trouser chino jogger bottoms",
+  shirts: "shirt button-up linen flannel",
+  polos: "polo",
+  pants: "pant trouser chino jogger cargo bottoms",
 };
 
 function words(p: Product): string[] {

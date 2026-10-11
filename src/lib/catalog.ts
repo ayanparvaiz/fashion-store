@@ -8,6 +8,8 @@ export const seedProducts = productsJson as unknown as Product[];
 type Photo = (typeof mediaJson.photos)[keyof typeof mediaJson.photos];
 const photos = mediaJson.photos as Record<string, Photo>;
 export const banners = mediaJson.banners as Record<string, string>;
+/** Editorial (landscape) photos used by the lookbook. */
+export const lookbookPhotos = mediaJson.lookbook as string[];
 
 export const CATEGORIES: Record<CategorySlug, { label: string; singular: string }> = {
   dresses: { label: "Dresses", singular: "Dress" },

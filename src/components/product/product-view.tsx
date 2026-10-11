@@ -7,6 +7,7 @@ import { useProductBySlug } from "@/lib/store/catalog";
 import { useRecentlyViewed } from "@/lib/store/wishlist";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { LinkButton } from "@/components/ui/button";
+import { CompleteTheLook } from "./complete-the-look";
 import { ProductGallery } from "./product-gallery";
 import { ProductInfo } from "./product-info";
 import { ProductRecommendations } from "./product-recommendations";
@@ -50,6 +51,7 @@ export function ProductView({ slug }: { slug: string }) {
         />
         <ProductInfo key={product.id} product={product} />
       </div>
+      <CompleteTheLook key={product.id} product={product} />
       <ProductReviews product={product} />
       <ProductRecommendations product={product} />
     </div>

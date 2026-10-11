@@ -5,7 +5,7 @@ import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-static";
 
-const PAGES = ["/", "/about/", "/contact/", "/faq/", "/shipping/", "/returns/", "/size-guide/", "/track-order/"];
+const PAGES = ["/", "/lookbook/", "/about/", "/contact/", "/faq/", "/shipping/", "/returns/", "/size-guide/", "/track-order/"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

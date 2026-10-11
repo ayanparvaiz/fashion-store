@@ -52,6 +52,7 @@ export const MAIN_NAV: (NavLink & { mega?: MegaMenu })[] = [
     ]),
   },
   { label: "Bestsellers", href: collectionHref("bestsellers") },
+  { label: "Lookbook", href: "/lookbook/" },
   { label: "Sale", href: collectionHref("sale"), highlight: true },
 ];
 

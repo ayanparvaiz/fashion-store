@@ -62,6 +62,8 @@ export function placeOrder(input: CheckoutInput): PlaceOrderResult {
   const discount = discountCheck?.ok ? discountCheck.code : null;
   const totals = computeTotals(lines, settings, { discount, method: input.shippingMethod });
 
+  // Seed demo history first so new order numbers never collide with it.
+  useOrders.getState().ensureSeeded();
   const { orders, add } = useOrders.getState();
   const now = new Date().toISOString();
   const order: Order = {
@@ -93,12 +95,16 @@ export function placeOrder(input: CheckoutInput): PlaceOrderResult {
 }
 
 export function findOrder(number: string, emailOrPhone: string): Order | undefined {
-  const needle = emailOrPhone.trim().toLowerCase().replace(/\s+/g, "");
+  const email = emailOrPhone.trim().toLowerCase();
+  const phoneDigits = emailOrPhone.replace(/\D/g, "").slice(-8);
+  const wanted = number.trim().toLowerCase().replace(/^#/, "");
+  useOrders.getState().ensureSeeded();
   return useOrders
     .getState()
     .orders.find(
       (o) =>
-        o.number.toLowerCase() === number.trim().toLowerCase().replace(/^#/, "") &&
-        (o.email === needle || o.phone.replace(/\s+/g, "") === needle),
+        o.number.toLowerCase() === wanted &&
+        (o.email === email ||
+          (phoneDigits.length === 8 && o.phone.replace(/\D/g, "").slice(-8) === phoneDigits)),
     );
 }

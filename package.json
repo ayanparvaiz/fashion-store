@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "fetch:images": "node --env-file=.env.local scripts/fetch-images.mjs",
+    "build:catalog": "node scripts/build-catalog.mjs"
   },
   "dependencies": {
     "next": "16.4.0",

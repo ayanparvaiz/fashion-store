@@ -23,7 +23,7 @@ export function DenimFeature() {
         </ImageReveal>
         <div>
           <p className="eyebrow text-accent">The denim edit</p>
-          <h2 className="heading-display mt-3 text-5xl leading-[0.92] lg:text-7xl">
+          <h2 className="heading-display mt-3 text-3xl leading-[0.95] sm:text-4xl lg:text-5xl">
             Find your
             <br />
             perfect fit

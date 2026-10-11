@@ -39,7 +39,7 @@ export function GenderSplit() {
           </Parallax>
           <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-transparent" />
           <div className="absolute inset-x-6 bottom-6 text-paper lg:inset-x-10 lg:bottom-10">
-            <h2 className="heading-display text-5xl lg:text-7xl">{tile.title}</h2>
+            <h2 className="heading-display text-3xl lg:text-5xl">{tile.title}</h2>
             <p className="mt-2 text-sm text-paper/85">{tile.text}</p>
             <span className="mt-5 inline-block border-b-2 border-paper pb-1 text-xs font-bold uppercase tracking-[0.16em]">
               Shop {tile.title}

@@ -7,7 +7,7 @@ import { ImageReveal, SplitReveal } from "@/components/motion/reveal";
 export function SaleBanner() {
   return (
     <section className="grid bg-accent text-paper lg:grid-cols-2">
-      <ImageReveal className="relative aspect-[4/3] lg:aspect-auto lg:min-h-[560px]">
+      <ImageReveal className="relative aspect-[4/3] lg:aspect-auto lg:min-h-[480px]">
         <div className="absolute inset-0">
           <Image
             src={photoUrl(banners.sale)}
@@ -21,12 +21,12 @@ export function SaleBanner() {
       <div className="relative flex flex-col justify-center overflow-hidden px-6 py-14 sm:px-12 lg:px-20">
         <span
           aria-hidden
-          className="pointer-events-none absolute -right-10 -bottom-16 font-display text-[220px] leading-none text-paper/10 select-none lg:text-[300px]"
+          className="pointer-events-none absolute -right-10 -bottom-16 font-display text-[160px] leading-none text-paper/10 select-none lg:text-[220px]"
         >
           %
         </span>
         <p className="eyebrow text-paper/80">Mid-season sale</p>
-        <SplitReveal as="h2" className="heading-display mt-3 text-6xl leading-[0.9] sm:text-7xl lg:text-8xl">
+        <SplitReveal as="h2" className="heading-display mt-3 text-4xl leading-[0.95] lg:text-5xl">
           Up to
           <br />
           30% off

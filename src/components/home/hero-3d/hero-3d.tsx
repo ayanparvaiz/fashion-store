@@ -91,10 +91,10 @@ export function Hero3D() {
         aria-hidden
         className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center font-display leading-[0.78] tracking-tight select-none"
       >
-        <span className="block text-[24vw] text-transparent [-webkit-text-stroke:1px_rgba(255,255,255,0.22)] sm:text-[19vw]">
+        <span className="block text-[19vw] text-transparent [-webkit-text-stroke:1px_rgba(255,255,255,0.18)] sm:text-[14vw]">
           NEW
         </span>
-        <span className="block text-[24vw] text-paper/[0.06] sm:text-[19vw]">SEASON</span>
+        <span className="block text-[19vw] text-paper/[0.05] sm:text-[14vw]">SEASON</span>
       </div>
 
       <div className="absolute inset-0" data-cursor="drag">
@@ -135,7 +135,7 @@ export function Hero3D() {
 
         <div className="container-page grid gap-6 pb-8 sm:pb-10 lg:grid-cols-[1fr_auto_1fr] lg:items-end">
           <div className="pointer-events-auto max-w-md">
-            <h1 data-hero-title className="heading-display text-4xl leading-[0.92] sm:text-6xl">
+            <h1 data-hero-title className="heading-display text-3xl leading-[0.95] sm:text-4xl lg:text-5xl">
               Main character energy
             </h1>
             <p data-hero-fade className="mt-4 max-w-sm text-sm text-paper/75">

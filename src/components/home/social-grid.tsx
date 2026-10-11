@@ -12,7 +12,7 @@ export function SocialGrid() {
     <section className="py-14 lg:py-20">
       <div className="container-page mb-8 text-center">
         <p className="eyebrow text-accent">As seen on you</p>
-        <h2 className="heading-display mt-2 text-2xl sm:text-4xl lg:text-5xl">
+        <h2 className="heading-display mt-2 text-2xl sm:text-3xl lg:text-4xl">
           #FashionStore<wbr />
           Style
         </h2>

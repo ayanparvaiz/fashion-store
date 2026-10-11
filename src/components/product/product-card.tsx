@@ -1,7 +1,9 @@
 "use client";
 
-import { SmartImage as Image } from "@/components/ui/smart-image";
+import { Eye } from "lucide-react";
 import Link from "next/link";
+import { useRef } from "react";
+import { SmartImage as Image } from "@/components/ui/smart-image";
 import { isLowStock, productAlt, productHref, productImage } from "@/lib/catalog";
 import { cn } from "@/lib/cn";
 import { useCart } from "@/lib/store/cart";
@@ -29,6 +31,26 @@ export function ProductCard({
   const toast = useUI((s) => s.toast);
   const href = productHref(product);
   const hoverImage = product.image.id ? productImage(product, "detail") : null;
+  const openQuickView = useUI((s) => s.openQuickView);
+  const frame = useRef<HTMLDivElement>(null);
+
+  // Subtle 3D tilt with a moving glare on precise pointers.
+  const tilt = (e: React.PointerEvent) => {
+    const el = frame.current;
+    if (!el || e.pointerType !== "mouse") return;
+    const r = el.getBoundingClientRect();
+    const x = (e.clientX - r.left) / r.width;
+    const y = (e.clientY - r.top) / r.height;
+    el.style.setProperty("--rx", `${(0.5 - y) * 8}deg`);
+    el.style.setProperty("--ry", `${(x - 0.5) * 10}deg`);
+    el.style.setProperty("--gx", `${x * 100}%`);
+    el.style.setProperty("--gy", `${y * 100}%`);
+  };
+  const resetTilt = () => {
+    const el = frame.current;
+    el?.style.setProperty("--rx", "0deg");
+    el?.style.setProperty("--ry", "0deg");
+  };
 
   const quickAdd = (size: string) => {
     add({ productId: product.id, size, quantity: 1 });
@@ -37,9 +59,14 @@ export function ProductCard({
   };
 
   return (
-    <article className={cn("group relative", className)}>
-      <div className="relative aspect-[3/4] overflow-hidden bg-soft">
-        <Link href={href} aria-label={product.name} className="absolute inset-0">
+    <article className={cn("group relative [perspective:900px]", className)}>
+      <div
+        ref={frame}
+        onPointerMove={tilt}
+        onPointerLeave={resetTilt}
+        className="relative aspect-[3/4] overflow-hidden bg-soft transition-transform duration-300 ease-out [transform:rotateX(var(--rx,0deg))_rotateY(var(--ry,0deg))] [transform-style:preserve-3d]"
+      >
+        <Link href={href} aria-label={product.name} className="absolute inset-0" data-cursor="view">
           <Image
             src={productImage(product)}
             alt={productAlt(product)}
@@ -62,11 +89,25 @@ export function ProductCard({
           )}
         </Link>
 
+        {/* Glare that follows the pointer */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 opacity-0 mix-blend-soft-light transition-opacity duration-300 group-hover:opacity-100 [background:radial-gradient(circle_at_var(--gx,50%)_var(--gy,50%),rgba(255,255,255,0.55),transparent_55%)]"
+        />
+
         <ProductBadges product={product} className="pointer-events-none absolute top-2 left-2" />
         <WishlistButton
           productId={product.id}
           className="absolute top-2 right-2 grid size-9 place-items-center rounded-full bg-paper/90 shadow-sm"
         />
+        <button
+          type="button"
+          onClick={() => openQuickView(product.id)}
+          aria-label={`Quick view ${product.name}`}
+          className="absolute top-13 right-2 hidden size-9 translate-x-2 place-items-center rounded-full bg-paper/90 opacity-0 shadow-sm transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100 focus-visible:translate-x-0 focus-visible:opacity-100 lg:grid"
+        >
+          <Eye className="size-4" />
+        </button>
 
         <div className="absolute inset-x-2 bottom-2 hidden translate-y-2 bg-paper/95 p-2 opacity-0 transition-all duration-300 group-focus-within:translate-y-0 group-focus-within:opacity-100 group-hover:translate-y-0 group-hover:opacity-100 lg:block">
           <p className="mb-1.5 text-center text-[10px] font-bold uppercase tracking-[0.14em]">

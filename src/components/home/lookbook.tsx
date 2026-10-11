@@ -104,7 +104,7 @@ export function Lookbook() {
       >
         <div className="flex w-[80vw] shrink-0 snap-start flex-col justify-center sm:w-[50vw] lg:w-[32vw]">
           <p className="eyebrow text-accent">The SS26 lookbook</p>
-          <h2 className="heading-display mt-4 text-5xl leading-[0.9] lg:text-8xl">
+          <h2 className="heading-display mt-4 text-3xl leading-[0.95] lg:text-5xl">
             Six looks.
             <br />
             Zero rules.
@@ -130,7 +130,7 @@ export function Lookbook() {
                 <Image src={look.image} alt="" fill sizes="(min-width: 1024px) 62vw, 85vw" className="object-cover" />
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-transparent" />
-              <span className="absolute top-4 left-4 font-display text-6xl text-paper/90 lg:text-8xl">
+              <span className="absolute top-4 left-4 font-display text-4xl text-paper/90 lg:text-5xl">
                 {String(i + 1).padStart(2, "0")}
               </span>
               <div className="absolute inset-x-4 bottom-4 flex flex-wrap gap-2">
@@ -154,7 +154,7 @@ export function Lookbook() {
               </div>
             </div>
             <div className="mt-4 flex items-baseline justify-between gap-4">
-              <h3 className="font-display text-2xl uppercase lg:text-3xl">{look.title}</h3>
+              <h3 className="font-display text-xl uppercase lg:text-2xl">{look.title}</h3>
               <p className="text-sm text-paper/60">{look.note}</p>
             </div>
           </article>

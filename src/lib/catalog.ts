@@ -12,17 +12,23 @@ export const banners = mediaJson.banners as Record<string, string>;
 export const CATEGORIES: Record<CategorySlug, { label: string; singular: string }> = {
   dresses: { label: "Dresses", singular: "Dress" },
   tops: { label: "Tops", singular: "Top" },
+  skirts: { label: "Skirts", singular: "Skirt" },
   jeans: { label: "Jeans", singular: "Jeans" },
-  hoodies: { label: "Hoodies", singular: "Hoodie" },
+  shorts: { label: "Shorts", singular: "Shorts" },
+  hoodies: { label: "Hoodies & Sweats", singular: "Hoodie" },
+  knitwear: { label: "Knitwear", singular: "Sweater" },
+  "denim-jackets": { label: "Denim Jackets", singular: "Denim Jacket" },
   jackets: { label: "Jackets & Coats", singular: "Jacket" },
+  activewear: { label: "Activewear", singular: "Active Set" },
   "t-shirts": { label: "T-Shirts", singular: "T-Shirt" },
   shirts: { label: "Shirts", singular: "Shirt" },
+  polos: { label: "Polos", singular: "Polo" },
   pants: { label: "Pants", singular: "Pants" },
 };
 
 export const GENDER_CATEGORIES: Record<Gender, CategorySlug[]> = {
-  women: ["dresses", "tops", "jeans", "hoodies", "jackets"],
-  men: ["t-shirts", "shirts", "hoodies", "pants", "jackets"],
+  women: ["dresses", "tops", "skirts", "jeans", "shorts", "hoodies", "knitwear", "denim-jackets", "jackets", "activewear"],
+  men: ["t-shirts", "shirts", "polos", "hoodies", "knitwear", "denim-jackets", "jackets", "jeans", "pants", "shorts"],
 };
 
 export function getPhoto(id: string) {

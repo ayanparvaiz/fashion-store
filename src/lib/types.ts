@@ -3,11 +3,17 @@ export type Gender = "women" | "men";
 export type CategorySlug =
   | "dresses"
   | "tops"
+  | "skirts"
   | "jeans"
+  | "shorts"
   | "hoodies"
+  | "knitwear"
+  | "denim-jackets"
   | "jackets"
+  | "activewear"
   | "t-shirts"
   | "shirts"
+  | "polos"
   | "pants";
 
 export interface ProductImage {

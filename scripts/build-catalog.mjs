@@ -59,7 +59,7 @@ const CATALOG = {
       ["V1dX9O1B4pM", "Cloud Fleece Pullover Hoodie", "White", "#F7F7F5", 42.9],
       ["dN67hPE5KWY", "Blush Oversized Hoodie", "Blush Pink", "#EDC3C3", 42.9],
       ["aAPLeoSmbk4", "Lilac Graphic Hoodie", "Lilac", "#C9B6DE", 46.9],
-      ["k9RYF3ii0g8", "Cherry Red Hoodie", "Cherry", "#C42A22", 39.9, 49.9],
+      ["k9RYF3ii0g8", "Cherry Red Hoodie", "Cherry", "#C42A22", 39.9, 56.9],
       ["uNMH2TKD0MQ", "Cream Boyfriend Hoodie", "Cream", "#F1EAD7", 44.9],
       ["SGVyegCsh-U", "Forest Green Embroidered Hoodie", "Forest", "#1E4A3F", 46.9],
       ["4w_Yqqsb8s8", "Mustard Relaxed Hoodie", "Mustard", "#E0A526", 39.9],

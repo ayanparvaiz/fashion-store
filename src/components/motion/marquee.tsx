@@ -46,13 +46,13 @@ export function Marquee({
       <span key={`${hidden}-${i}`} aria-hidden={hidden || undefined} className="flex items-center">
         <span
           className={cn(
-            "px-6 font-display text-5xl whitespace-nowrap uppercase sm:text-7xl lg:text-8xl",
-            i % 2 === 1 && "text-transparent [-webkit-text-stroke:1.5px_currentColor]",
+            "px-5 font-display text-2xl whitespace-nowrap uppercase sm:text-3xl lg:text-4xl",
+            i % 2 === 1 && "text-transparent [-webkit-text-stroke:1px_currentColor]",
           )}
         >
           {item}
         </span>
-        <span className="text-3xl text-accent sm:text-5xl" aria-hidden>
+        <span className="text-lg text-accent sm:text-xl lg:text-2xl" aria-hidden>
           ✦
         </span>
       </span>
@@ -61,7 +61,7 @@ export function Marquee({
   return (
     <div
       className={cn(
-        "overflow-hidden py-6 sm:py-8",
+        "overflow-hidden py-3.5 sm:py-4",
         tone === "dark" && "bg-ink text-paper",
         tone === "light" && "bg-paper text-ink",
         tone === "accent" && "bg-accent text-paper",

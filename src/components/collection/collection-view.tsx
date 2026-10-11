@@ -7,6 +7,7 @@ import { cn } from "@/lib/cn";
 import { categoryHref, collectionHref, getCollection } from "@/lib/collections";
 import { useProducts } from "@/lib/store/catalog";
 import { Breadcrumbs, type Crumb } from "@/components/ui/breadcrumbs";
+import { FlashSaleBar } from "@/components/marketing/flash-sale-bar";
 import { ProductListing } from "./product-listing";
 
 export function CollectionView({ handle }: { handle: string }) {
@@ -43,6 +44,8 @@ export function CollectionView({ handle }: { handle: string }) {
         </h1>
         <p className="mt-3 text-sm text-ink/70 sm:text-base">{collection.description}</p>
       </header>
+
+      {handle === "sale" && <FlashSaleBar className="-mx-4 mb-8 sm:-mx-6 lg:mx-0" />}
 
       {subnav && (
         <nav aria-label="Categories" className="no-scrollbar -mx-4 mb-6 overflow-x-auto px-4 sm:mx-0 sm:px-0">

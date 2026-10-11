@@ -8,6 +8,7 @@ import { NewArrivals } from "@/components/home/new-arrivals";
 import { NewsletterBlock } from "@/components/home/newsletter-block";
 import { SaleBanner } from "@/components/home/sale-banner";
 import { SocialGrid } from "@/components/home/social-grid";
+import { FlashSaleBar } from "@/components/marketing/flash-sale-bar";
 import { Marquee } from "@/components/motion/marquee";
 import { Preloader, PreloaderGate } from "@/components/motion/preloader";
 
@@ -21,6 +22,7 @@ export default function HomePage() {
       <CategoryShowcase />
       <NewArrivals />
       <Lookbook />
+      <FlashSaleBar />
       <SaleBanner />
       <GenderSplit />
       <Bestsellers />

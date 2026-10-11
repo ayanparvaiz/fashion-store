@@ -2,20 +2,46 @@
   "hosting": {
     "public": "out",
     "trailingSlash": true,
-    "ignore": ["firebase.json", "**/.*"],
+    "ignore": [
+      "firebase.json",
+      "**/.*"
+    ],
     "headers": [
       {
         "source": "/_next/static/**",
-        "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          }
+        ]
       },
       {
         "source": "/opengraph-image",
-        "headers": [{ "key": "Content-Type", "value": "image/png" }]
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "image/png"
+          }
+        ]
       },
       {
         "source": "/admin/**",
-        "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }]
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex"
+          }
+        ]
       }
     ]
+  },
+  "emulators": {
+    "hosting": {
+      "port": 5050
+    },
+    "ui": {
+      "enabled": false
+    }
   }
 }

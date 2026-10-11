@@ -3,6 +3,8 @@ import { Cursor } from "@/components/motion/cursor";
 import { PageTransition } from "@/components/motion/page-transition";
 import { SmoothScroll } from "@/components/motion/smooth-scroll";
 import { QuickView } from "@/components/product/quick-view";
+import { RecentPurchases } from "@/components/marketing/social-proof";
+import { WelcomePopup } from "@/components/marketing/welcome-popup";
 import { AnnouncementBar } from "./announcement-bar";
 import { Footer } from "./footer";
 import { Header } from "./header";
@@ -28,6 +30,8 @@ export function StoreChrome({ children }: { children: React.ReactNode }) {
       <SmoothScroll />
       <Cursor />
       <QuickView />
+      <RecentPurchases />
+      <WelcomePopup />
       <CartDrawer />
       <MobileMenu />
       <SearchOverlay />

@@ -15,12 +15,15 @@ interface UIState {
   quickViewId: string | null;
   /** Set once the intro preloader has finished (or was skipped). */
   introDone: boolean;
+  /** Product whose card image should morph into the product page. */
+  morphId: string | null;
   toasts: Toast[];
   setCartOpen: (open: boolean) => void;
   setSearchOpen: (open: boolean) => void;
   setMenuOpen: (open: boolean) => void;
   openQuickView: (productId: string | null) => void;
   setIntroDone: () => void;
+  setMorphId: (productId: string | null) => void;
   toast: (message: string, tone?: Toast["tone"]) => void;
   dismissToast: (id: number) => void;
 }
@@ -33,12 +36,14 @@ export const useUI = create<UIState>()((set, get) => ({
   menuOpen: false,
   quickViewId: null,
   introDone: false,
+  morphId: null,
   toasts: [],
   setCartOpen: (cartOpen) => set({ cartOpen }),
   setSearchOpen: (searchOpen) => set({ searchOpen }),
   setMenuOpen: (menuOpen) => set({ menuOpen }),
   openQuickView: (quickViewId) => set({ quickViewId }),
   setIntroDone: () => set({ introDone: true }),
+  setMorphId: (morphId) => set({ morphId }),
   toast: (message, tone = "default") => {
     const id = ++toastId;
     set({ toasts: [...get().toasts, { id, message, tone }].slice(-3) });

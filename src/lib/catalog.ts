@@ -3,7 +3,7 @@ import mediaJson from "@/data/media.json";
 import type { CategorySlug, Gender, Product } from "./types";
 
 /** Seed catalog shipped with the build. Admin edits are layered on top at runtime. */
-export const seedProducts = productsJson as Product[];
+export const seedProducts = productsJson as unknown as Product[];
 
 type Photo = (typeof mediaJson.photos)[keyof typeof mediaJson.photos];
 const photos = mediaJson.photos as Record<string, Photo>;

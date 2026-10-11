@@ -37,7 +37,11 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en-SG" className={`${inter.variable} ${archivoBlack.variable} antialiased`}>
+    <html
+      lang="en-SG"
+      className={`${inter.variable} ${archivoBlack.variable} antialiased`}
+      suppressHydrationWarning
+    >
       <body className="flex min-h-dvh flex-col">
         {children}
         <Toaster />

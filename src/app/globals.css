@@ -91,3 +91,8 @@ body {
     scroll-behavior: auto !important;
   }
 }
+
+/* The intro preloader only plays once per session (see PreloaderGate). */
+html[data-intro="done"] .preloader {
+  display: none;
+}

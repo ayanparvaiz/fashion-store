@@ -12,6 +12,7 @@ import { useCartCount } from "@/lib/store/cart";
 import { useUI } from "@/lib/store/ui";
 import { useWishlist } from "@/lib/store/wishlist";
 import { Logo } from "@/components/ui/logo";
+import { Magnetic } from "@/components/motion/magnetic";
 
 const productsById = new Map(seedProducts.map((p) => [p.id, p]));
 
@@ -138,23 +139,29 @@ export function Header() {
         <Logo />
 
         <div className="flex items-center justify-end gap-0.5 sm:gap-1">
-          <Link href="/account/" className={cn(iconButton, "hidden sm:block")} aria-label="Account">
-            <User className="size-5" />
-          </Link>
-          <Link href="/wishlist/" className={iconButton} aria-label={`Wishlist (${wishlistCount})`}>
-            <Heart className="size-5" />
-            <CountBadge count={wishlistCount} />
-          </Link>
-          <button
-            type="button"
-            className={cn(iconButton, "-mr-2")}
-            onClick={() => setCartOpen(true)}
-            aria-label={`Shopping bag (${cartCount})`}
-            data-cart-target
-          >
-            <ShoppingBag className="size-5" />
-            <CountBadge count={cartCount} />
-          </button>
+          <Magnetic strength={0.4}>
+            <Link href="/account/" className={cn(iconButton, "hidden sm:block")} aria-label="Account">
+              <User className="size-5" />
+            </Link>
+          </Magnetic>
+          <Magnetic strength={0.4}>
+            <Link href="/wishlist/" className={cn(iconButton, "block")} aria-label={`Wishlist (${wishlistCount})`}>
+              <Heart className="size-5" />
+              <CountBadge count={wishlistCount} />
+            </Link>
+          </Magnetic>
+          <Magnetic strength={0.4}>
+            <button
+              type="button"
+              className={cn(iconButton, "-mr-2 block")}
+              onClick={() => setCartOpen(true)}
+              aria-label={`Shopping bag (${cartCount})`}
+              data-cart-target
+            >
+              <ShoppingBag className="size-5" />
+              <CountBadge count={cartCount} />
+            </button>
+          </Magnetic>
         </div>
       </div>
 

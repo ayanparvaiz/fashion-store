@@ -47,7 +47,7 @@ export function ProductGallery({
                 i === active ? "ring-2 ring-ink ring-offset-2" : "opacity-60 hover:opacity-100",
               )}
             >
-              <Image src={src} alt="" fill sizes="84px" className="object-cover" />
+              <Image src={src} alt="" fill loading="eager" sizes="84px" className="object-cover" />
             </button>
           </li>
         ))}
@@ -75,7 +75,8 @@ export function ProductGallery({
                   src={src}
                   alt={i === 0 ? alt : `${alt} — detail ${i}`}
                   fill
-                  priority={i === 0}
+                  loading={i === 0 ? "eager" : undefined}
+                  fetchPriority={i === 0 ? "high" : undefined}
                   sizes="(min-width: 1024px) 50vw, 100vw"
                   className="object-cover"
                 />

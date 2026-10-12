@@ -2,6 +2,7 @@ import { SmartImage as Image } from "@/components/ui/smart-image";
 import { banners, photoUrl } from "@/lib/catalog";
 import { collectionHref } from "@/lib/collections";
 import { LinkButton } from "@/components/ui/button";
+import { Magnetic } from "@/components/motion/magnetic";
 import { ImageReveal, SplitReveal } from "@/components/motion/reveal";
 
 export function SaleBanner() {
@@ -36,9 +37,11 @@ export function SaleBanner() {
           first order with code <strong className="text-paper">WELCOME10</strong>.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
-          <LinkButton href={collectionHref("sale")} variant="inverse" size="lg">
-            Shop the Sale
-          </LinkButton>
+          <Magnetic>
+            <LinkButton href={collectionHref("sale")} variant="inverse" size="lg">
+              Shop the Sale
+            </LinkButton>
+          </Magnetic>
         </div>
       </div>
     </section>

@@ -11,6 +11,7 @@ import { formatPrice } from "@/lib/format";
 import { SplitText, gsap, prefersReducedMotion, useGSAP } from "@/lib/motion";
 import { useUI } from "@/lib/store/ui";
 import { LinkButton } from "@/components/ui/button";
+import { Magnetic } from "@/components/motion/magnetic";
 import { SmartImage as Image } from "@/components/ui/smart-image";
 
 const RingScene = dynamic(() => import("./ring-scene"), { ssr: false });
@@ -158,17 +159,21 @@ export function Hero3D() {
               Bold colour, sharp tailoring and statement fits for women and men. Drag the ring to explore.
             </p>
             <div data-hero-fade className="mt-6 flex flex-wrap gap-3">
-              <LinkButton href={collectionHref("women")} variant="inverse" size="lg">
-                Shop Women
-              </LinkButton>
-              <LinkButton
-                href={collectionHref("men")}
-                variant="outline"
-                size="lg"
-                className="border-paper text-paper hover:bg-paper hover:text-ink"
-              >
-                Shop Men
-              </LinkButton>
+              <Magnetic>
+                <LinkButton href={collectionHref("women")} variant="inverse" size="lg">
+                  Shop Women
+                </LinkButton>
+              </Magnetic>
+              <Magnetic>
+                <LinkButton
+                  href={collectionHref("men")}
+                  variant="outline"
+                  size="lg"
+                  className="border-paper text-paper hover:bg-paper hover:text-ink"
+                >
+                  Shop Men
+                </LinkButton>
+              </Magnetic>
             </div>
           </div>
 

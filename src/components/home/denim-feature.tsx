@@ -2,6 +2,7 @@ import { SmartImage as Image } from "@/components/ui/smart-image";
 import { banners, photoUrl } from "@/lib/catalog";
 import { categoryHref } from "@/lib/collections";
 import { LinkButton } from "@/components/ui/button";
+import { Magnetic } from "@/components/motion/magnetic";
 import { ImageReveal } from "@/components/motion/reveal";
 
 const FITS = ["Skinny", "Mom", "Flare", "Wide leg", "Boyfriend", "Tapered"];
@@ -39,12 +40,16 @@ export function DenimFeature() {
             ))}
           </ul>
           <div className="mt-8 flex flex-wrap gap-3">
-            <LinkButton href={categoryHref("women", "jeans")} size="lg">
-              Women&apos;s Jeans
-            </LinkButton>
-            <LinkButton href={categoryHref("men", "pants")} variant="outline" size="lg">
-              Men&apos;s Pants
-            </LinkButton>
+            <Magnetic>
+              <LinkButton href={categoryHref("women", "jeans")} size="lg">
+                Women&apos;s Jeans
+              </LinkButton>
+            </Magnetic>
+            <Magnetic>
+              <LinkButton href={categoryHref("men", "pants")} variant="outline" size="lg">
+                Men&apos;s Pants
+              </LinkButton>
+            </Magnetic>
           </div>
         </div>
       </div>

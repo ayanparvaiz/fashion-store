@@ -4,7 +4,8 @@ import { Eye } from "lucide-react";
 import Link from "next/link";
 import { ViewTransition, useRef } from "react";
 import { SmartImage as Image } from "@/components/ui/smart-image";
-import { isLowStock, productAlt, productHref, productImage } from "@/lib/catalog";
+import { isLowStock, productAlt, productHref, productImage, productThumb } from "@/lib/catalog";
+import { flyToCart } from "@/lib/fly-to-cart";
 import { cn } from "@/lib/cn";
 import { useCart } from "@/lib/store/cart";
 import { useUI } from "@/lib/store/ui";
@@ -54,7 +55,9 @@ export function ProductCard({
     el?.style.setProperty("--ry", "0deg");
   };
 
-  const quickAdd = (size: string) => {
+  const quickAdd = async (size: string) => {
+    // The bag count updates as the photo lands on the bag icon.
+    await flyToCart([frame.current], productThumb(product));
     add({ productId: product.id, size, quantity: 1 });
     toast(`${product.name} (${size}) added to bag`, "success");
     setCartOpen(true);

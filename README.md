@@ -31,6 +31,10 @@ Discount codes to try at checkout: `WELCOME10` (10% off), `FLASH10` (flash sale,
 - **Pinned lookbook:** six looks that scroll sideways on desktop, each with "shop the look" product chips
 - **Editorial category index:** large type rows with a photo that follows the cursor
 - **Details:** a scroll-reactive marquee, a labelled custom cursor, 3D tilt and glare on product cards, and page transitions where the product photo morphs into the product page (View Transitions API)
+- **Fly to cart:** adding to bag flies the product photo along an arc into the header bag, which bounces as the count updates (product cards, product page, Quick View and bundles)
+- **Magnetic buttons:** landing page calls to action and header icons lean toward the mouse
+- **Full-screen mobile menu:** a circular reveal from the menu button, large staggered links, expandable Women/Men categories and trending products
+- **Order success:** the confirmation tick draws itself, the copy lifts in, and brand-coloured confetti bursts for orders placed in the last two minutes
 - **Accessibility:** every animation is switched off when the visitor's system asks for reduced motion
 
 ![Intro preloader](docs/screenshots/intro.jpg)

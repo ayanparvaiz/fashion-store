@@ -58,6 +58,12 @@ export function productImage(product: Product, view: ImageView = "main"): string
   return photoUrl(id, `${base}&crop=focalpoint&fp-x=0.5&fp-y=${y}&fp-z=${zoom}`);
 }
 
+/** Small ready-to-use photo URL (for plain <img> outside next/image). */
+export function productThumb(product: Product, width = 240): string {
+  const url = productImage(product);
+  return url.startsWith("https://images.unsplash.com/") ? `${url}&w=${width}&q=70&auto=format` : url;
+}
+
 export function productGallery(product: Product): string[] {
   if (!product.image.id) return [productImage(product)];
   return (["main", "detail", "close"] as const).map((v) => productImage(product, v));

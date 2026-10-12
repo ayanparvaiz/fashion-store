@@ -20,7 +20,7 @@ export default function AboutPage() {
   return (
     <>
       <section className="relative grid min-h-[60vh] place-items-center overflow-hidden bg-ink text-paper">
-        <Image src={photoUrl(banners.about)} alt="" fill priority sizes="100vw" className="object-cover opacity-50" />
+        <Image src={photoUrl(banners.about)} alt="" fill loading="eager" fetchPriority="high" sizes="100vw" className="object-cover opacity-50" />
         <div className="container-page relative py-24 text-center">
           <p className="eyebrow text-paper/80">Our story</p>
           <h1 className="heading-display mx-auto mt-3 max-w-4xl text-4xl leading-[0.95] sm:text-5xl lg:text-6xl">

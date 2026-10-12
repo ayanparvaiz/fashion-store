@@ -289,7 +289,7 @@ function ProductEditor({ initial, isNew }: { initial: Product; isNew: boolean })
             <div className="space-y-3 p-5">
               <div className="relative aspect-[3/4] overflow-hidden rounded-md bg-soft">
                 {preview ? (
-                  <Image src={preview} alt="Product preview" fill sizes="300px" className="object-cover" />
+                  <Image src={preview} alt="Product preview" fill loading="eager" sizes="300px" className="object-cover" />
                 ) : (
                   <div className="grid h-full place-items-center text-sm text-muted">No image yet</div>
                 )}

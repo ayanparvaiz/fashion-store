@@ -82,7 +82,7 @@ export function ProductCard({
               alt={productAlt(product)}
               fill
               sizes={sizes}
-              priority={priority}
+              loading={priority ? "eager" : undefined}
               className={cn(
                 "object-cover transition-all duration-700 ease-out",
                 hoverImage && "group-hover:opacity-0",

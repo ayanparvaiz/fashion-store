@@ -218,8 +218,8 @@ function Ring({ items, intro, onHover, onSelect }: RingProps) {
   );
 }
 
-export default function RingScene(props: RingProps & { active: boolean }) {
-  const { active, ...ring } = props;
+export default function RingScene(props: RingProps & { active: boolean; onContextLost?: () => void }) {
+  const { active, onContextLost, ...ring } = props;
   return (
     <Canvas
       dpr={[1, 1.75]}
@@ -227,6 +227,16 @@ export default function RingScene(props: RingProps & { active: boolean }) {
       camera={{ position: [0, 0.9, 12], fov: 34 }}
       gl={{ antialias: true, alpha: true, powerPreference: "high-performance" }}
       style={{ touchAction: "pan-y" }}
+      onCreated={({ gl }) => {
+        gl.domElement.addEventListener(
+          "webglcontextlost",
+          (e) => {
+            e.preventDefault();
+            onContextLost?.();
+          },
+          { once: true },
+        );
+      }}
     >
       <Ring {...ring} />
     </Canvas>

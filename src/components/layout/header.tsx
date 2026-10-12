@@ -115,6 +115,7 @@ export function Header() {
             className={cn(iconButton, "-ml-2 lg:hidden")}
             onClick={() => setMenuOpen(true)}
             aria-label="Open menu"
+            data-menu-button
           >
             <Menu className="size-5" />
           </button>

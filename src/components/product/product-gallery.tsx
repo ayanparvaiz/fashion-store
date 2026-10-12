@@ -67,6 +67,7 @@ export function ProductGallery({
                 setActive(i);
                 setZoomOpen(true);
               }}
+              data-product-photo={i === 0 ? "" : undefined}
               className="group relative aspect-[3/4] w-full shrink-0 snap-center cursor-zoom-in overflow-hidden bg-soft"
               aria-label={`Zoom image ${i + 1}`}
             >

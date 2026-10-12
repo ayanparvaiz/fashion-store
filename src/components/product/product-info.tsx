@@ -3,7 +3,8 @@
 import { Banknote, Minus, Plus, RotateCcw, Truck } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { useMounted } from "@/hooks/use-mounted";
-import { categoryLabel, totalStock } from "@/lib/catalog";
+import { categoryLabel, productThumb, totalStock } from "@/lib/catalog";
+import { flyToCart } from "@/lib/fly-to-cart";
 import { cn } from "@/lib/cn";
 import { deliveryEstimate } from "@/lib/delivery";
 import { formatPrice, formatWeekday } from "@/lib/format";
@@ -51,12 +52,14 @@ export function ProductInfo({ product }: { product: Product }) {
     return () => observer.disconnect();
   }, []);
 
-  const addToBag = () => {
+  const addToBag = async (button?: Element | null) => {
     if (!size) {
       setError(true);
       return;
     }
     if (available === 0) return;
+    // Fly from the main photo if it's on screen, otherwise from the button pressed.
+    await flyToCart([document.querySelector("[data-product-photo]"), button], productThumb(product));
     add({ productId: product.id, size, quantity });
     toast(`${product.name} (${size}) added to bag`, "success");
     setCartOpen(true);
@@ -168,7 +171,7 @@ export function ProductInfo({ product }: { product: Product }) {
         <Button
           size="lg"
           className="flex-1 px-4 whitespace-nowrap"
-          onClick={addToBag}
+          onClick={(e) => addToBag(e.currentTarget)}
           disabled={soldOut || (size !== null && available === 0)}
         >
           {soldOut ? "Sold out" : size && available === 0 ? `${size} sold out` : "Add to bag"}
@@ -253,9 +256,9 @@ export function ProductInfo({ product }: { product: Product }) {
           <p className="text-xs text-muted">{size ? `Size ${size}` : "Select a size"} · {formatPrice(product.price)}</p>
         </div>
         <Button
-          onClick={() => {
+          onClick={(e) => {
             if (!size) addButton.current?.scrollIntoView({ behavior: "smooth", block: "center" });
-            addToBag();
+            addToBag(e.currentTarget);
           }}
           disabled={soldOut}
         >

@@ -23,21 +23,32 @@ const RING_IDS = [
 
 const byId = new Map(seedProducts.map((p) => [p.id, p]));
 
-function useWebGL(): boolean | null {
-  return useSyncExternalStore(
-    () => () => {},
-    () => {
-      if (prefersReducedMotion()) return false;
-      try {
-        const canvas = document.createElement("canvas");
-        return Boolean(canvas.getContext("webgl2") ?? canvas.getContext("webgl"));
-      } catch {
-        return false;
-      }
-    },
-    () => null,
-  );
+// Checked once per page load. The probe context is released immediately:
+// browsers cap live WebGL contexts (~16) and drop the oldest one — the ring's.
+let webglSupport: boolean | undefined;
+
+function detectWebGL(): boolean {
+  if (webglSupport !== undefined) return webglSupport;
+  if (prefersReducedMotion()) return (webglSupport = false);
+  try {
+    const canvas = document.createElement("canvas");
+    const gl = canvas.getContext("webgl2") ?? canvas.getContext("webgl");
+    webglSupport = Boolean(gl);
+    gl?.getExtension("WEBGL_lose_context")?.loseContext();
+  } catch {
+    webglSupport = false;
+  }
+  return webglSupport;
 }
+
+const noopSubscribe = () => () => {};
+
+function useWebGL(): boolean | null {
+  return useSyncExternalStore(noopSubscribe, detectWebGL, () => null);
+}
+
+/** After this many lost contexts in one visit we fall back to static photos. */
+const MAX_SCENE_RESTARTS = 3;
 
 export function Hero3D() {
   const router = useRouter();
@@ -46,6 +57,9 @@ export function Hero3D() {
   const section = useRef<HTMLElement>(null);
   const [hovered, setHovered] = useState<number | null>(null);
   const [visible, setVisible] = useState(true);
+  // Bumped when the WebGL context is lost, to remount the scene with a fresh one.
+  const [sceneKey, setSceneKey] = useState(0);
+  const sceneFailed = sceneKey >= MAX_SCENE_RESTARTS;
 
   const products = useMemo(() => RING_IDS.map((id) => byId.get(id)!).filter(Boolean), []);
   const items = useMemo(
@@ -98,15 +112,17 @@ export function Hero3D() {
       </div>
 
       <div className="absolute inset-0" data-cursor="drag">
-        {webgl ? (
+        {webgl && !sceneFailed ? (
           <RingScene
+            key={sceneKey}
+            onContextLost={() => setTimeout(() => setSceneKey((k) => k + 1), 300)}
             items={items}
             intro={intro}
             active={visible}
             onHover={setHovered}
             onSelect={(i) => router.push(productHref(products[i]))}
           />
-        ) : webgl === false ? (
+        ) : webgl === false || sceneFailed ? (
           <div className="absolute inset-x-0 top-1/2 flex -translate-y-1/2 justify-center gap-3 px-4">
             {products.slice(0, 5).map((p, i) => (
               <div

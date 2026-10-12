@@ -2,8 +2,9 @@
 
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
-import { useState } from "react";
-import { categoryLabel, productAlt, productGallery, productHref, totalStock } from "@/lib/catalog";
+import { useRef, useState } from "react";
+import { categoryLabel, productAlt, productGallery, productHref, productThumb, totalStock } from "@/lib/catalog";
+import { flyToCart } from "@/lib/fly-to-cart";
 import { cn } from "@/lib/cn";
 import { useCart } from "@/lib/store/cart";
 import { useProductMap } from "@/lib/store/catalog";
@@ -25,12 +26,13 @@ function QuickViewBody({ product, onClose }: { product: Product; onClose: () => 
   const [image, setImage] = useState(0);
   const [size, setSize] = useState<string | null>(null);
   const [error, setError] = useState(false);
+  const photo = useRef<HTMLDivElement>(null);
   const soldOut = totalStock(product) === 0;
 
   return (
     <div className="grid md:grid-cols-[1.1fr_1fr]">
       <div className="relative bg-soft">
-        <div className="relative aspect-[3/4]">
+        <div ref={photo} className="relative aspect-[3/4]">
           <Image src={images[image]} alt={productAlt(product)} fill sizes="(min-width: 768px) 420px, 100vw" className="object-cover" />
         </div>
         {images.length > 1 && (
@@ -94,11 +96,14 @@ function QuickViewBody({ product, onClose }: { product: Product; onClose: () => 
             size="lg"
             className="flex-1"
             disabled={soldOut}
-            onClick={() => {
+            onClick={async () => {
               if (!size) return setError(true);
+              // Measure the photo, close the modal, then fly the photo into the bag.
+              const flight = flyToCart([photo.current], productThumb(product));
+              onClose();
+              await flight;
               add({ productId: product.id, size, quantity: 1 });
               toast(`${product.name} (${size}) added to bag`, "success");
-              onClose();
               setCartOpen(true);
             }}
           >

@@ -2,8 +2,9 @@
 
 import { Check, Plus } from "lucide-react";
 import Link from "next/link";
-import { useMemo, useState } from "react";
-import { productAlt, productHref, productImage } from "@/lib/catalog";
+import { useMemo, useRef, useState } from "react";
+import { productAlt, productHref, productImage, productThumb } from "@/lib/catalog";
+import { flyToCart } from "@/lib/fly-to-cart";
 import { cn } from "@/lib/cn";
 import { formatPrice } from "@/lib/format";
 import { useCart } from "@/lib/store/cart";
@@ -44,6 +45,7 @@ export function CompleteTheLook({ product }: { product: Product }) {
   const products = useProducts();
   const add = useCart((s) => s.add);
   const setCartOpen = useUI((s) => s.setCartOpen);
+  const section = useRef<HTMLElement>(null);
   const toast = useUI((s) => s.toast);
 
   const bundle = useMemo(() => {
@@ -73,7 +75,7 @@ export function CompleteTheLook({ product }: { product: Product }) {
   const missingSize = selected.some((p) => !chosen[p.id]?.size);
 
   return (
-    <section className="border-t border-line py-14 lg:py-20">
+    <section ref={section} className="border-t border-line py-14 lg:py-20">
       <p className="eyebrow text-accent">Styled for you</p>
       <h2 className="heading-display mt-2 text-3xl lg:text-4xl">Complete the look</h2>
       <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_320px] lg:items-start">
@@ -88,7 +90,11 @@ export function CompleteTheLook({ product }: { product: Product }) {
                   </span>
                 )}
                 <div className={cn("transition-opacity", !state.on && "opacity-40")}>
-                  <Link href={productHref(p)} className="relative block aspect-[3/4] overflow-hidden bg-soft">
+                  <Link
+                    href={productHref(p)}
+                    data-bundle-photo={p.id}
+                    className="relative block aspect-[3/4] overflow-hidden bg-soft"
+                  >
                     {/* "This item" uses the detail crop so its URL differs from the eager gallery photo. */}
                     <Image
                       src={productImage(p, p.id === product.id ? "detail" : "main")}
@@ -143,7 +149,19 @@ export function CompleteTheLook({ product }: { product: Product }) {
             size="lg"
             className="mt-5 w-full"
             disabled={selected.length === 0 || missingSize}
-            onClick={() => {
+            onClick={async () => {
+              // Each selected piece flies into the bag, slightly staggered.
+              await Promise.all(
+                selected.map(
+                  (p, i) =>
+                    new Promise<void>((done) =>
+                      setTimeout(() => {
+                        const el = section.current?.querySelector(`[data-bundle-photo="${p.id}"]`);
+                        flyToCart([el], productThumb(p)).then(done);
+                      }, i * 140),
+                    ),
+                ),
+              );
               for (const p of selected) add({ productId: p.id, size: chosen[p.id].size!, quantity: 1 });
               toast(`Added ${selected.length} items to your bag`, "success");
               setCartOpen(true);

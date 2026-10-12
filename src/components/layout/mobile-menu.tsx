@@ -175,7 +175,8 @@ export function MobileMenu() {
               <li key={s.href} className="w-32 shrink-0">
                 <Link href={s.href} onClick={close} className="block">
                   <span className="relative block aspect-[3/4] overflow-hidden bg-paper/10">
-                    <Image src={productImage(s.product!)} alt="" fill sizes="128px" className="object-cover" />
+                    {/* Detail crop: keeps these URLs distinct from the same products' page photos. */}
+                    <Image src={productImage(s.product!, "detail")} alt="" fill sizes="128px" className="object-cover" />
                   </span>
                   <span className="mt-2 block text-xs font-semibold tracking-[0.14em] uppercase">{s.label}</span>
                 </Link>

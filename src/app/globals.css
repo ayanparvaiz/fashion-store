@@ -91,7 +91,7 @@ body {
   }
 }
 
-/* The intro preloader only plays once per session (see PreloaderGate). */
+/* The intro preloader only plays once per session (see INTRO_GATE_SCRIPT in lib/intro.ts). */
 html[data-intro="done"] .preloader {
   display: none;
 }

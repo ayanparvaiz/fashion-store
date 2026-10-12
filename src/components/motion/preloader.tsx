@@ -2,24 +2,10 @@
 
 import { useRef } from "react";
 import { getLenis, gsap, prefersReducedMotion, useGSAP } from "@/lib/motion";
+import { INTRO_SESSION_KEY } from "@/lib/intro";
 import { useUI } from "@/lib/store/ui";
 
-const SESSION_KEY = "fs:intro";
 const WORD = "FASHION.STORE";
-
-/**
- * Inline script (runs before first paint) that hides the preloader for the
- * rest of the session once it has played, so repeat visits never flash it.
- */
-export function PreloaderGate() {
-  return (
-    <script
-      dangerouslySetInnerHTML={{
-        __html: `try{if(sessionStorage.getItem("${SESSION_KEY}")||matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.dataset.intro="done"}catch(e){}`,
-      }}
-    />
-  );
-}
 
 /** Brand intro: letters rise, a counter runs to 100, then a curtain lifts. */
 export function Preloader() {
@@ -42,7 +28,7 @@ export function Preloader() {
 
       const finish = () => {
         try {
-          sessionStorage.setItem(SESSION_KEY, "1");
+          sessionStorage.setItem(INTRO_SESSION_KEY, "1");
         } catch {}
         document.documentElement.dataset.intro = "done";
         document.documentElement.style.overflow = "";

@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Archivo_Black, Inter } from "next/font/google";
 import { Toaster } from "@/components/ui/toaster";
+import { INTRO_GATE_SCRIPT } from "@/lib/intro";
 import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -42,6 +43,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${inter.variable} ${archivoBlack.variable} antialiased`}
       suppressHydrationWarning
     >
+      <head>
+        {/* Root layout never re-renders on the client, so this inline script only runs from the server HTML. */}
+        <script dangerouslySetInnerHTML={{ __html: INTRO_GATE_SCRIPT }} />
+      </head>
       <body className="flex min-h-dvh flex-col">
         {children}
         <Toaster />

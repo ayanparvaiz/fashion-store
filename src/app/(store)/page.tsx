@@ -10,12 +10,11 @@ import { SaleBanner } from "@/components/home/sale-banner";
 import { SocialGrid } from "@/components/home/social-grid";
 import { FlashSaleBar } from "@/components/marketing/flash-sale-bar";
 import { Marquee } from "@/components/motion/marquee";
-import { Preloader, PreloaderGate } from "@/components/motion/preloader";
+import { Preloader } from "@/components/motion/preloader";
 
 export default function HomePage() {
   return (
     <>
-      <PreloaderGate />
       <Preloader />
       <Hero3D />
       <Marquee items={["New drops every Friday", "492 styles", "Free delivery over S$80", "Cash on delivery"]} />

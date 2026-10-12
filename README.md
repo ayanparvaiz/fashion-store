@@ -4,7 +4,7 @@ A modern fashion e-commerce storefront and admin panel for women's and men's clo
 
 ![Fashion Store landing page with the 3D product ring](docs/screenshots/hero-3d.jpg)
 
-> **MVP status:** This build runs entirely in the browser and has no backend. Orders, product edits, accounts and settings are saved in the visitor's browser (localStorage), so you can try every flow end to end. The data layer is isolated so it can be moved to Firebase (Firestore, Auth, Storage) without rewriting the UI. See [Going live](#going-live-with-firebase).
+> **How data works:** The site is fully static and runs without a server. Orders, product edits, accounts and settings are saved in the visitor's browser (localStorage), so every flow works end to end. The data layer is isolated, so it can be connected to Firebase (Firestore, Auth, Storage) without rewriting the UI. See [Connecting a backend](#connecting-a-backend-firebase).
 
 ## Try it
 
@@ -140,9 +140,9 @@ firebase deploy --only hosting
 
 `firebase.json` is already set up to serve `out/` with trailing slashes, long-term caching for static assets and the custom 404 page.
 
-## Going live with Firebase
+## Connecting a backend (Firebase)
 
-The MVP keeps all backend concerns in `src/lib/store/*` and `src/lib/services/*`. To go live:
+The app keeps all backend concerns in `src/lib/store/*` and `src/lib/services/*`. To connect a real backend:
 
 1. **Auth:** replace the demo accounts and admin login (`src/lib/store/auth.ts`) with Firebase Authentication. Use custom claims for admin users.
 2. **Firestore:** move `products`, `orders`, `discounts` and `settings` into collections. Swap the Zustand stores for Firestore reads and real-time listeners.

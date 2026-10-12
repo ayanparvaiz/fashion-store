@@ -89,7 +89,14 @@ export function CompleteTheLook({ product }: { product: Product }) {
                 )}
                 <div className={cn("transition-opacity", !state.on && "opacity-40")}>
                   <Link href={productHref(p)} className="relative block aspect-[3/4] overflow-hidden bg-soft">
-                    <Image src={productImage(p)} alt={productAlt(p)} fill sizes="(min-width: 640px) 25vw, 100vw" className="object-cover" />
+                    {/* "This item" uses the detail crop so its URL differs from the eager gallery photo. */}
+                    <Image
+                      src={productImage(p, p.id === product.id ? "detail" : "main")}
+                      alt={productAlt(p)}
+                      fill
+                      sizes="(min-width: 640px) 25vw, 100vw"
+                      className="object-cover"
+                    />
                   </Link>
                   <div className="mt-3 flex items-start gap-2">
                     <button

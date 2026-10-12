@@ -150,6 +150,7 @@ export function Header() {
             className={cn(iconButton, "-mr-2")}
             onClick={() => setCartOpen(true)}
             aria-label={`Shopping bag (${cartCount})`}
+            data-cart-target
           >
             <ShoppingBag className="size-5" />
             <CountBadge count={cartCount} />
